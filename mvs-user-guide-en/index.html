@@ -1,0 +1,846 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="default">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Metaverse," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Metaverse Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).简体中文版本 Simplified Chinese Documentation Get Startedtrial on metaverse test-netThere are two on-line test-net web pa">
+<meta name="keywords" content="Metaverse">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Setup Metaverse Client And Command Usages">
+<meta property="og:url" content="http://blog.mvs.live/mvs-user-guide-en/index.html">
+<meta property="og:site_name" content="Metaverse Blog">
+<meta property="og:description" content="This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).简体中文版本 Simplified Chinese Documentation Get Startedtrial on metaverse test-netThere are two on-line test-net web pa">
+<meta property="og:image" content="http://newmetaverse.org/guide/download-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/win-extract.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/win-run1.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/win-run2.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/win-start.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/login-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/download-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/OSX-extract.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/OSX-install.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/OSX-run.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/login-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/download-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/login-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/usage/add-new-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/usage/private-keys-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/usage/importaccount-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/usage/main-page-en.png">
+<meta property="og:image" content="http://newmetaverse.org/guide/usage/transfer-en.png">
+<meta property="og:updated_time" content="2017-09-20T09:52:36.901Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How Setup Metaverse Client And Command Usages">
+<meta name="twitter:description" content="This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).简体中文版本 Simplified Chinese Documentation Get Startedtrial on metaverse test-netThere are two on-line test-net web pa">
+<meta name="twitter:image" content="http://newmetaverse.org/guide/download-en.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.mvs.live/mvs-user-guide-en/"/>
+
+
+
+
+
+  <title> How Setup Metaverse Client And Command Usages | Metaverse Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?187db08e283f2c17bb8e5c3e1c5c4f93";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Metaverse Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">元界 - The New Reality.</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://blog.mvs.live/mvs-user-guide-en/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Metaverse Core Developers">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/mvs-02.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Metaverse Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                How Setup Metaverse Client And Command Usages
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-08T13:44:21+08:00">
+                2017-04-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Guide/" itemprop="url" rel="index">
+                    <span itemprop="name">Guide</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).<br><a href="http://blog.mvs.live/mvs-user-guide-zh/">简体中文版本 Simplified Chinese Documentation</a></p>
+<h2 id="Get-Started"><a href="#Get-Started" class="headerlink" title="Get Started"></a>Get Started</h2><h3 id="trial-on-metaverse-test-net"><a href="#trial-on-metaverse-test-net" class="headerlink" title="trial on metaverse test-net"></a>trial on metaverse test-net</h3><p>There are two on-line test-net web page for Metaverse as below:<br>Click into node1: <a href="http://test1.metaverse.live:8820" target="_blank" rel="external">http://test1.metaverse.live:8820</a><br>Click into node4：<a href="http://test4.metaverse.live:8820" target="_blank" rel="external">http://test4.metaverse.live:8820</a></p>
+<h3 id="Installations"><a href="#Installations" class="headerlink" title="Installations"></a>Installations</h3><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><ol>
+<li><p>Get latest release from mvs.live<br>download from <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a><br><img src="http://newmetaverse.org/guide/download-en.png" alt="download-en"></p>
+</li>
+<li><p>Extract installation ball<br><img src="http://newmetaverse.org/guide/win-extract.png" alt="win-extract"></p>
+</li>
+<li><p>Run metaverse<br>open ‘mvsd’, waiting for synchronizing blocks, the height you can exeplorer on <a href="http://explorer.mvs.live" target="_blank" rel="external">http://explorer.mvs.live</a><br>(Allow network permission when startup at first time)<br><img src="http://newmetaverse.org/guide/win-run1.png" alt="win-run1"><br><img src="http://newmetaverse.org/guide/win-run2.png" alt="win-run2"></p>
+</li>
+<li><p>Usage<br>open ‘start-metaverse.html’<br><img src="http://newmetaverse.org/guide/win-start.png" alt="win-start"><br>Or you can type in 127.0.0.1:8820 in your brower<br><img src="http://newmetaverse.org/guide/login-en.png" alt="login-en"></p>
+</li>
+</ol>
+<h4 id="MacOSX"><a href="#MacOSX" class="headerlink" title="MacOSX"></a>MacOSX</h4><ol>
+<li><p>Get latest release from mvs.live<br>download from <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a><br><img src="http://newmetaverse.org/guide/download-en.png" alt="download-en"></p>
+</li>
+<li><p>Extract tar-ball and install WEB-UI files<br>Extract<br><img src="http://newmetaverse.org/guide/OSX-extract.png" alt="OSX-extract"><br>open ‘mvs-install’, waiting for installation done , then close this windows<br><img src="http://newmetaverse.org/guide/OSX-install.png" alt="OSX-install"></p>
+</li>
+<li><p>Run<br>open ‘mvsd’, waiting for synchronizing blocks, the height you can exeplorer on <a href="http://explorer.mvs.live" target="_blank" rel="external">http://explorer.mvs.live</a><br><img src="http://newmetaverse.org/guide/OSX-run.png" alt="OSX-run"></p>
+</li>
+<li><p>Usage<br>open ‘start-metaverse.html’<br>Or you can type in 127.0.0.1:8820 with your brower<br><img src="http://newmetaverse.org/guide/login-en.png" alt="login-en"></p>
+</li>
+</ol>
+<h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4><ol>
+<li><p>Get latest release from mvs.live<br>download from <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a><br><img src="http://newmetaverse.org/guide/download-en.png" alt="download-en"></p>
+</li>
+<li><p>Extract tar-ball and install WEB-UI files</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># extract</span></div><div class="line">tar -xzvf mvs067-linux-x86_64.tar.gz</div><div class="line"><span class="comment"># open 'mvs-install', waiting for installation done (terminal only, then skip)</span></div><div class="line">./mvs-install</div></pre></td></tr></table></figure>
+</li>
+<li><p>Run</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">open <span class="string">'mvsd'</span>, waiting <span class="keyword">for</span> synchronizing blocks, the height you can exeplorer on &lt;http://explorer.mvs.live&gt;</div><div class="line"><span class="comment"># -d run as daemon, otherwise running on your terminal.</span></div><div class="line">./mvsd <span class="_">-d</span></div><div class="line"></div><div class="line"><span class="comment"># see the help message of mvsd</span></div><div class="line">./mvsd <span class="built_in">help</span></div><div class="line"></div><div class="line"><span class="comment"># see the help message of mvs-cli</span></div><div class="line">./mvs-cli <span class="built_in">help</span></div><div class="line"></div><div class="line"><span class="comment"># see the help message for each command</span></div><div class="line">./mvs-cli <span class="built_in">help</span> <span class="variable">$command</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>Usage<br>a. Using on terminal normally.<br>b. Using on browser same as other platfroms.<br>open ‘start-metaverse.html’<br>Or you can type in 127.0.0.1:8820 on your brower<br><img src="http://newmetaverse.org/guide/login-en.png" alt="login-en"></p>
+</li>
+</ol>
+<h2 id="Account-and-Login"><a href="#Account-and-Login" class="headerlink" title="Account and Login"></a>Account and Login</h2><h3 id="Account-Explanation"><a href="#Account-Explanation" class="headerlink" title="Account Explanation"></a>Account Explanation</h3><p>账户基于HD设计, 您所使用的帐号和密码属于该钱包本地的，非链上的数据，所以不可随主私钥助记符(主私钥助记符是为了方便用户记忆的24个单词或汉字,与主私钥是映射关系)导入。<br>如果切换新钱包，原账户名和密码不可使用，需要重新设置，即使忘记也没有关系，只需要备份好主私钥助记符即可。</p>
+<h4 id="a-Add-your-own-new-account"><a href="#a-Add-your-own-new-account" class="headerlink" title="a. Add your own new account"></a>a. Add your own new account</h4><p>Click ‘register’<br><img src="http://newmetaverse.org/guide/usage/add-new-en.png" alt="add-new-en"><br>Backup your mnemonic words<br><img src="http://newmetaverse.org/guide/usage/private-keys-en.png" alt="private-keys-en"></p>
+<p><strong>Please save this key at a safe place. A good way can be to write it down on a piece of paper. It is very important to back up this key and it is not possible to retrieve this key later</strong></p>
+<h4 id="b-import-account-from-other-mnemonic-words"><a href="#b-import-account-from-other-mnemonic-words" class="headerlink" title="b. import account from other mnemonic words"></a>b. import account from other mnemonic words</h4><p><img src="http://newmetaverse.org/guide/usage/importaccount-en.png" alt="importaccount-en"></p>
+<h3 id="Login"><a href="#Login" class="headerlink" title="Login"></a>Login</h3><p>Type in your own account name and password(those created in last step), click ‘Login’<br>The home-page as blow:<br><img src="http://newmetaverse.org/guide/usage/main-page-en.png" alt="main-page-en"><br>Here is the ETP transfer page:<br><img src="http://newmetaverse.org/guide/usage/transfer-en.png" alt="transfer-en"></p>
+<h2 id="How-to-Register-Transfer-IssueAsset-on-metaverse-Video"><a href="#How-to-Register-Transfer-IssueAsset-on-metaverse-Video" class="headerlink" title="How to Register/Transfer/IssueAsset on metaverse? (Video)"></a>How to Register/Transfer/IssueAsset on metaverse? (Video)</h2><p><a href="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" target="_blank" rel="external">Open as new tab</a></p>
+<video src="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" width="640" height="480" controls="controls"><br>Your browser does not support the video tag.<br></video>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Metaverse/" rel="tag"># Metaverse</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/mvs-user-guide-zh/" rel="next" title="元界(Metaverse)安装与使用手册">
+                <i class="fa fa-chevron-left"></i> 元界(Metaverse)安装与使用手册
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/history-releasenotes/" rel="prev" title="元界历史版本ReleaseNotes以及下载地址">
+                元界历史版本ReleaseNotes以及下载地址 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/mvs-02.png"
+               alt="Metaverse Core Developers" />
+          <p class="site-author-name" itemprop="name">Metaverse Core Developers</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+           
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/mvs-live" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://viewfin.com" target="_blank" title="Viewfin">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Viewfin
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://bbs.viewfin.com" target="_blank" title="bbs">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  bbs
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Get-Started"><span class="nav-number">1.</span> <span class="nav-text">Get Started</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#trial-on-metaverse-test-net"><span class="nav-number">1.1.</span> <span class="nav-text">trial on metaverse test-net</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Installations"><span class="nav-number">1.2.</span> <span class="nav-text">Installations</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Windows"><span class="nav-number">1.2.1.</span> <span class="nav-text">Windows</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#MacOSX"><span class="nav-number">1.2.2.</span> <span class="nav-text">MacOSX</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Linux"><span class="nav-number">1.2.3.</span> <span class="nav-text">Linux</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Account-and-Login"><span class="nav-number">2.</span> <span class="nav-text">Account and Login</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Account-Explanation"><span class="nav-number">2.1.</span> <span class="nav-text">Account Explanation</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#a-Add-your-own-new-account"><span class="nav-number">2.1.1.</span> <span class="nav-text">a. Add your own new account</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#b-import-account-from-other-mnemonic-words"><span class="nav-number">2.1.2.</span> <span class="nav-text">b. import account from other mnemonic words</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Login"><span class="nav-number">2.2.</span> <span class="nav-text">Login</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#How-to-Register-Transfer-IssueAsset-on-metaverse-Video"><span class="nav-number">3.</span> <span class="nav-text">How to Register/Transfer/IssueAsset on metaverse? (Video)</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-home"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Metaverse Core Developers</span>
+</div>
+
+
+<div class="Powered-by">
+  Powered by <a class="theme-link" href="http://viewfin.com">Viewfin</a>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+</body>
+</html>

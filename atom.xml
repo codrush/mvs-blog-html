@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Metaverse Blog</title>
+  
+  <subtitle>元界 - The New Reality.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.mvs.live/"/>
+  <updated>2017-10-26T03:05:15.438Z</updated>
+  <id>http://blog.mvs.live/</id>
+  
+  <author>
+    <name>Metaverse Core Developers</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>元界钱包客户端常见问题</title>
+    <link href="http://blog.mvs.live/Q&amp;A-CN/"/>
+    <id>http://blog.mvs.live/Q&amp;A-CN/</id>
+    <published>2017-10-26T02:42:00.000Z</published>
+    <updated>2017-10-26T03:05:15.438Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文档适用于0.7.0及以上版本钱包。</p><hr><h1 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h1><h3 id="1、安装时杀毒软件提示病毒怎么办？"><a href="#1、安装时杀毒软件提示病毒怎么办？" class="headerlink" title="1、安装时杀毒软件提示病毒怎么办？"></a>1、安装时杀毒软件提示病毒怎么办？</h3><p>如果您电脑上的杀毒软件提示有病毒，属于误判，建议您安装时关闭杀毒软件或者将钱包程序添加信任，否则杀毒软件容易误删钱包重要文件。</p><h3 id="2、-32位的Windows系统能不能安装钱包？"><a href="#2、-32位的Windows系统能不能安装钱包？" class="headerlink" title="2、 32位的Windows系统能不能安装钱包？"></a>2、 32位的Windows系统能不能安装钱包？</h3><p>元界钱包目前不支持32位Windows系统，请您更换位64位系统即可成功安装。</p><h3 id="3、Windows版本钱包时打开闪退、自动消失怎么办？"><a href="#3、Windows版本钱包时打开闪退、自动消失怎么办？" class="headerlink" title="3、Windows版本钱包时打开闪退、自动消失怎么办？"></a>3、Windows版本钱包时打开闪退、自动消失怎么办？</h3><p>首先请您尝试重启电脑或者重装钱包，由于部分电脑性能不佳会造成这种情况，建议您打开钱包时关闭其他所有软件，包括杀毒软件。</p><p>如果仍旧无法解决问题，那么您的钱包数据库可能收到损害。首先请您确认已经保护好钱包私钥（24个英文单词），然后下载数据版安装包进行安装，并选择覆盖原有数据，如下图所示：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/104638s0s86iil3z8fl178.png" alt=""></p><h3 id="4、钱包安装过程中死机怎么办"><a href="#4、钱包安装过程中死机怎么办" class="headerlink" title="4、钱包安装过程中死机怎么办"></a>4、钱包安装过程中死机怎么办</h3><p>这是由于钱包初始化时需要占用大量磁盘，而您的电脑打开的程序太多，磁盘占用率太高，造成了电脑死机。请将除mvsd.exe以外的其他所有电脑程序全部关闭再打开同步程序即可。</p><h3 id="5、打开钱包页面提示“404”-“找不到页面”"><a href="#5、打开钱包页面提示“404”-“找不到页面”" class="headerlink" title="5、打开钱包页面提示“404”/“找不到页面”"></a>5、打开钱包页面提示“404”/“找不到页面”</h3><p>如果开着代理服务器或者杀毒软件，请关闭。清空浏览器近一个月数据后重试。如果还是无法打开的话，建议卸载重装。</p><h1 id="账户和登录"><a href="#账户和登录" class="headerlink" title="账户和登录"></a>账户和登录</h1><h3 id="1、-登录账号提示“无效的登录凭证”"><a href="#1、-登录账号提示“无效的登录凭证”" class="headerlink" title="1、  登录账号提示“无效的登录凭证”"></a>1、  登录账号提示“无效的登录凭证”</h3><p>可能原因有：1、使用了浏览器缓存的账号密码；2、账号或密码出错；3、账号密码已失效（这种情况在您更换了电脑或是重装系统之后会发生）；</p><p>解决方法：先尝试清除浏览器数据，手动输入账号密码，不成功的话重启同步程序和钱包页面再试。如果仍旧无法登陆，重新申请账号（新账号用户名最好与原账号不同）并导入原账号的私钥。</p><h3 id="2、无法导入私钥"><a href="#2、无法导入私钥" class="headerlink" title="2、无法导入私钥"></a>2、无法导入私钥</h3><p>可能是由于：</p><ul><li>导入私钥时未填写地址数量，请填写一个地址数量即可；</li></ul><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/105016x8hvcq0nzhh05m11.png" alt=""></p><ul><li><p>新账号的用户名您之前已经使用过，请更换一个新用户名即可；</p></li><li><p>将账户名中的数字删除，使用纯字母组成的用户名再试；</p></li></ul><h3 id="3、导入旧帐户的私钥后，钱包中币的数量减少或为零怎么办？"><a href="#3、导入旧帐户的私钥后，钱包中币的数量减少或为零怎么办？" class="headerlink" title="3、导入旧帐户的私钥后，钱包中币的数量减少或为零怎么办？"></a>3、导入旧帐户的私钥后，钱包中币的数量减少或为零怎么办？</h3><p>可能是由于：</p><ul><li><p>您导入了错误的私钥；</p></li><li><p>您导入私钥时地址填写数量太少造成地址丢失，建议重新导入私钥并填写一个较大的地址数额，如50个；</p></li><li><p>钱包同步未完成，等待钱包同步完成即可；</p></li></ul><h3 id="4、导入旧帐户私钥后，旧账户中原有的地址没有在新账户中显示"><a href="#4、导入旧帐户私钥后，旧账户中原有的地址没有在新账户中显示" class="headerlink" title="4、导入旧帐户私钥后，旧账户中原有的地址没有在新账户中显示"></a>4、导入旧帐户私钥后，旧账户中原有的地址没有在新账户中显示</h3><p>可能有以下原因：</p><ul><li><p>新账户地址不足：点击“创建新地址”来新建地址直到地址出现，或是重新导入私钥并填写一个较大的地址数额，如50个；</p></li><li><p>导入了不正确的私钥。</p></li></ul><h1 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h1><h3 id="1、钱包怎么同步？"><a href="#1、钱包怎么同步？" class="headerlink" title="1、钱包怎么同步？"></a>1、钱包怎么同步？</h3><p>钱包打开自动同步，同步到的块数在右下角显示。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/104727q9jhvov4q4jvgjsg.png" alt=""></p><h3 id="2、钱包打开不同步怎么办？"><a href="#2、钱包打开不同步怎么办？" class="headerlink" title="2、钱包打开不同步怎么办？"></a>2、钱包打开不同步怎么办？</h3><p>请尝试以下操作：</p><ul><li><p>多刷新页面；</p></li><li><p>关掉您电脑中除钱包外的其他应用，包括杀毒软件；</p></li><li><p>卸载重装钱包；</p></li></ul><p>此外，请注意电脑休眠时是不更新区块的；</p><h3 id="3、同步如果还没完成怎么办？"><a href="#3、同步如果还没完成怎么办？" class="headerlink" title="3、同步如果还没完成怎么办？"></a>3、同步如果还没完成怎么办？</h3><p>如果同步还未完成可能会造成以下情况：</p><ul><li><p>钱包里不显示任何币，或者钱包里显示的币数比你实际拥有的要少；</p></li><li><p>你从其他地方提到钱包的币一直没收到，不在钱包显示；</p></li></ul><p>在这种情况下只要耐心等待同步完成就可以。同步时间受到您的网速和电脑配置的影响，一般情况下从0同步需要4~5个小时（电脑如果休眠同步会停止），所以建议新用户安装数据包版来节省同步时间。</p><h3 id="4、什么样才是同步完？"><a href="#4、什么样才是同步完？" class="headerlink" title="4、什么样才是同步完？"></a>4、什么样才是同步完？</h3><p>首先，请您打开元界区块浏览器，地址：<a href="https://explorer.mvs.org/#!/" target="_blank" rel="external">https://explorer.mvs.org/#!/</a></p><p>黄色框线部分就是目前产生的最新区块的序号（每分钟都会变化）：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/104753tahqhth4pwybwm4p.png" alt=""></p><p>然后，请打开并登录您的钱包，在钱包右下方显示的就是您的钱包目前同步到的区块数，如绿色框线所示：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/104818zk8ioqkt7q89sdu1.png" alt=""></p><p>当区块浏览器和钱包内显示的数字相同或者相差不多时，就可以认为钱包已经同步完成；如果两个数字相差很多，则同步未完成。</p><h1 id="资产"><a href="#资产" class="headerlink" title="资产"></a>资产</h1><h3 id="1、钱包中币的数量减少或为零"><a href="#1、钱包中币的数量减少或为零" class="headerlink" title="1、钱包中币的数量减少或为零"></a>1、钱包中币的数量减少或为零</h3><p>是因为同步未完成所以资产未显示，耐心等待同步完成即可。钱包已经同步的区块数可以在钱包上方查看。</p><h3 id="2、从其他地方像钱包转账后，钱包没收到怎么办？"><a href="#2、从其他地方像钱包转账后，钱包没收到怎么办？" class="headerlink" title="2、从其他地方像钱包转账后，钱包没收到怎么办？"></a>2、从其他地方像钱包转账后，钱包没收到怎么办？</h3><p>转币到电脑钱包没收到有两个可能：1、对方还没有打币；2、你的钱包没有同步到最新区块。可以到区块浏览器查看到最新的区块号：<a href="https://explorer.mvs.org/#!/" target="_blank" rel="external">https://explorer.mvs.org/#!/</a></p><h3 id="3、使用元界钱包转账是否收取手续费？"><a href="#3、使用元界钱包转账是否收取手续费？" class="headerlink" title="3、使用元界钱包转账是否收取手续费？"></a>3、使用元界钱包转账是否收取手续费？</h3><p>每笔均会收取0.0001个ETP的矿工费，单边按次收费。同一账户不同地址之间相互转账，同样会收取矿工费。</p><h3 id="4、如果要转移ZGC、ZDC或是钱包内除ETP外的其他资产，是如何收费的？"><a href="#4、如果要转移ZGC、ZDC或是钱包内除ETP外的其他资产，是如何收费的？" class="headerlink" title="4、如果要转移ZGC、ZDC或是钱包内除ETP外的其他资产，是如何收费的？"></a>4、如果要转移ZGC、ZDC或是钱包内除ETP外的其他资产，是如何收费的？</h3><p>收取0.0001个ETP的矿工费。</p><h3 id="5、转币时提示“无法发送资产”"><a href="#5、转币时提示“无法发送资产”" class="headerlink" title="5、转币时提示“无法发送资产”"></a>5、转币时提示“无法发送资产”</h3><p>使用元界钱包转币每次需收取0.0001ETP的矿工费用，请检查您的钱包内是否留有足够的ETP来交付矿工费。</p><h3 id="6、将钱包内的ETP全部转出时，提示余额不足。"><a href="#6、将钱包内的ETP全部转出时，提示余额不足。" class="headerlink" title="6、将钱包内的ETP全部转出时，提示余额不足。"></a>6、将钱包内的ETP全部转出时，提示余额不足。</h3><p>请您在钱包内留下至少0.0001etp作为矿工费。如您钱包内共有10ETP，转账金额请填写9.9999个。</p><h3 id="7、钱包里有ETP，但是转账的时候仍旧提示余额不足。"><a href="#7、钱包里有ETP，但是转账的时候仍旧提示余额不足。" class="headerlink" title="7、钱包里有ETP，但是转账的时候仍旧提示余额不足。"></a>7、钱包里有ETP，但是转账的时候仍旧提示余额不足。</h3><p>如果您转账时选择了发送地址，如下：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/104931wc8t5v0wcztblujx.png" alt=""></p><p>那么您需要保证这个地址里要有不少于0.0001个ETP。</p><p>为解决这个问题您可以不选定地址，改为自动选择：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/26/104938ruravvfgr02a22ff.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本文档适用于0.7.0及以上版本钱包。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;一、安装&quot;&gt;&lt;a href=&quot;#一、安装&quot; class=&quot;headerlink&quot; title=&quot;一、安装&quot;&gt;&lt;/a&gt;一、安装&lt;/h1&gt;&lt;h3 id=&quot;1、安装时杀毒软件提示病毒怎么办？&quot;&gt;&lt;a hre
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse元界最新版钱包客户端-0.7.1版发布</title>
+    <link href="http://blog.mvs.live/latest-releasenotes/"/>
+    <id>http://blog.mvs.live/latest-releasenotes/</id>
+    <published>2017-10-20T03:28:00.000Z</published>
+    <updated>2017-10-20T03:38:32.354Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0-7-1版本更新内容"><a href="#0-7-1版本更新内容" class="headerlink" title="0.7.1版本更新内容"></a>0.7.1版本更新内容</h3><p>1、修复部分用户无法锁仓ETP的问题；</p><p>2、增加自主填写矿工费功能；</p><p>3、前台新增多重签名地址的创建、多重签名交易发送模块；</p><p>4、在发送交易时，将多签名地址与普通地址隔离；</p><p>5、增加ETP存款到期块高显示功能；</p><p>6、修复服务器偶尔无法链接的bug；</p><p>7、修复重新安装后页面显示异常的问题；</p><p>8、钱包进程优化，极大减少针对系统资源的占用；</p><p>9、钱包UI的进一步调整和优化；</p><p>==0.7.1安装包有标准版和数据包版，数据包版为自带数据库的安装版本，可以极大节省第一次的区块同步时间，建议新用户下载安装；由于数据包版可能会覆盖原始数据，建议老用户安装标准版。==</p><h3 id="0-7-1版本更新指南（Windows）"><a href="#0-7-1版本更新指南（Windows）" class="headerlink" title="0.7.1版本更新指南（Windows）"></a>0.7.1版本更新指南（Windows）</h3><p>一、请到官网<a href="http://mvs.org下载安装程序：" target="_blank" rel="external">http://mvs.org下载安装程序：</a></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105649qbillxkukyo9ivb9.png" alt=""></p><p>二、点击安装程序，按照提示的步骤安装，不需要提前卸载旧版本。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105714nc8xhnzm833hxhyn.png" alt=""></p><p>三、安装完毕后，会在桌面上出现钱包的启动快捷方式，如下：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105745ushm64aeclkq6s4q.png" alt=""></p><p>四、双击钱包程序，开启钱包</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105818d2zeuew3otoeoh2u.png" alt=""></p><p>五、钱包开启后，运行图标会显示在任务栏，同步程序后台进行，退出钱包时，请在任务栏右键退出。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105845ds34b48nzz848ds5.png" alt=""></p><h3 id="0-7-1版本更新指南（OS-X）"><a href="#0-7-1版本更新指南（OS-X）" class="headerlink" title="0.7.1版本更新指南（OS X）"></a>0.7.1版本更新指南（OS X）</h3><p>一、请到官网<a href="http://mvs.org下载安装程序：" target="_blank" rel="external">http://mvs.org下载安装程序：</a></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105910ay0wy00zwj6xv40j.png" alt=""></p><p>二、双击安装程序，按照提示的步骤安装</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/105937kwwswa2nac6g9aw6.jpg" alt=""></p><p>三、钱包开启后，运行图标会显示在任务栏，同步程序后台进行，退出钱包时，请在任务栏右键退出。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201710/20/110126r83y6swk36y0ld9l.jpg" alt=""></p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>1、如果安装后打开钱包仍旧为老版本，或者新版本登录后点击无反应，请在浏览器设置中清除近一个月的数据，然后关掉浏览器，重新打开钱包即可。不推荐使用Windows自带IE浏览器。</p><p>2、此版本不支持OS X El Capitan及以下OS X系统。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;0-7-1版本更新内容&quot;&gt;&lt;a href=&quot;#0-7-1版本更新内容&quot; class=&quot;headerlink&quot; title=&quot;0.7.1版本更新内容&quot;&gt;&lt;/a&gt;0.7.1版本更新内容&lt;/h3&gt;&lt;p&gt;1、修复部分用户无法锁仓ETP的问题；&lt;/p&gt;
+&lt;p&gt;2、增加自主填
+      
+    
+    </summary>
+    
+      <category term="Releasenotes metaverse" scheme="http://blog.mvs.live/categories/Releasenotes-metaverse/"/>
+    
+    
+      <category term="upgrade" scheme="http://blog.mvs.live/tags/upgrade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows下元界钱包区块文件移到其他盘符</title>
+    <link href="http://blog.mvs.live/windows-move-to-D-disk/"/>
+    <id>http://blog.mvs.live/windows-move-to-D-disk/</id>
+    <published>2017-09-29T05:44:21.000Z</published>
+    <updated>2017-09-29T10:52:39.228Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p>在下述目录创建配置文件mvs.conf：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">%HOMEPATH%\AppData\Roaming\Metaverse</div></pre></td></tr></table></figure></li><li><p>mvs.conf 文件配置内容如下:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[database]</div><div class="line">directory = D:\MVS\ChainData\Metaverse</div></pre></td></tr></table></figure></li></ol><p><img src="http://dlmvs1.oss-cn-hangzhou.aliyuncs.com/conf/20170929181838.jpg" alt="p1"><br><strong>上述的路径可以填写你自己的路径;</strong><br>或者你可以下载该配置文件:<br><a href="http://newmetaverse.org/conf/mvs.conf" target="_blank" rel="external">http://newmetaverse.org/conf/mvs.conf</a></p><p>如果是新用户，建议安装 blockdata-inside 版本后，<br>将 %HOMEPATH%\AppData\Roaming\Metaverse 目录整个拷贝到D盘的目标目录;<br>(文件夹名称必须是 Metaverse 。)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在下述目录创建配置文件mvs.conf：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+      
+    
+    </summary>
+    
+      <category term="blockchain metaverse" scheme="http://blog.mvs.live/categories/blockchain-metaverse/"/>
+    
+    
+      <category term="prameters" scheme="http://blog.mvs.live/tags/prameters/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse(元界)项目进展报告-2017年9月</title>
+    <link href="http://blog.mvs.live/developer-report-9/"/>
+    <id>http://blog.mvs.live/developer-report-9/</id>
+    <published>2017-09-27T10:03:00.000Z</published>
+    <updated>2017-09-27T10:13:00.399Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Web钱包开发进展"><a href="#Web钱包开发进展" class="headerlink" title="Web钱包开发进展"></a>Web钱包开发进展</h1><p>##新版本发布<br>本月6日正式发布元界钱包0.7.0版本，此版本为元界钱包发布以来首次重大更新，启用全新钱包界面UI，并进行了以下性能优化：</p><ul><li>新增带块数据库的安装包，大大减少钱包同步时间；</li><li>针对交易量庞大的账户极大优化了交易查询等相关命令执行效率；</li><li>优化mongoose服务，提升web钱包相应速度</li><li>新增账户高级备份，账户可导出到加密文件</li><li>重构多重签名命令，优化输出方式</li></ul><p>ReleaseNotes请参见<a href="https://blog.mvs.live/latest-releasenotes/">https://blog.mvs.live/latest-releasenotes/</a></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201709/27/165736orfuu5nx4nappue0.jpg" alt=""></p><p>##新版本开发<br>元界钱包0.7.1版本开发已基本完成，将于下月上线，新版本将有如下性能优化：</p><ul><li>修复部分用户无法锁仓ETP的问题；</li><li>增加自主填写矿工费功能；</li><li>前台新增多重签名地址的创建、多重签名交易发送模块；</li><li>在发送交易时，将多签名地址与普通地址隔离；</li><li>钱包进程优化，极大减少针对系统资源的占用；</li><li>钱包UI的进一步调整和优化；</li></ul><p><img src="http://bbs.viewfin.com/data/attachment/forum/201709/27/174745j08t37lqp8hlptoh.png" alt=""></p><h1 id="手机钱包开发进展"><a href="#手机钱包开发进展" class="headerlink" title="手机钱包开发进展"></a>手机钱包开发进展</h1><p>TokenMaster安卓版本月更新2个版本，iOS版已开发完毕，并在本月提交APP Store审核。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201709/27/170434oxbjjyyxtbywyyyj.jpg" alt=""></p><h1 id="数字身份白皮书发布"><a href="#数字身份白皮书发布" class="headerlink" title="数字身份白皮书发布"></a>数字身份白皮书发布</h1><p>元界本月正式发布数字身份白皮书。元界的数字身份将基于现有的区块链生态体系搭建，并根据元界区块链提供的底层架构，围绕BaaS及钱包来开展数字身份的应用，以此为各行各业提供可验证、可授权的基础设施服务。</p><p>元界数字身份白皮书查看地址：<a href="http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf" target="_blank" rel="external">http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf</a></p><h1 id="市场与运营工作进展"><a href="#市场与运营工作进展" class="headerlink" title="市场与运营工作进展"></a>市场与运营工作进展</h1><h2 id="ETP上线Bitfinex"><a href="#ETP上线Bitfinex" class="headerlink" title="ETP上线Bitfinex"></a>ETP上线Bitfinex</h2><p><img src="http://bbs.viewfin.com/data/attachment/forum/201709/27/170019zlrjnthtl83yql7y.jpg" alt=""><br>Metaverse ETP 已在 Bitfinex 上币，目前支持ETP/USD，ETP/BTC以及ETP/ETH的交易。</p><p>Bitfinex是世界上最大的比特币交易平台。Bitfinex 是一个全功能的主要加密货币现货交易平台，提供交易、融资等服务，同时Bitfinex也是世界上首个支持实时隔离验证钱包的交易所，具有极高的安全性。</p><p>BitFinex地址：<a href="https://www.bitfinex.com/" target="_blank" rel="external">https://www.bitfinex.com/</a></p><h2 id="D10e乌克兰，基辅区块链峰会"><a href="#D10e乌克兰，基辅区块链峰会" class="headerlink" title="D10e乌克兰，基辅区块链峰会"></a>D10e乌克兰，基辅区块链峰会</h2><p>元界赞助并参加了2017年9月16日~19日的D10e在乌克兰，基辅的大会。同时元界的CEO Eric Gu受邀以讲师的身份出席并发表了演讲。<br><img src="http://bbs.viewfin.com/data/attachment/forum/201709/27/170146o8nrueqy8vc3yz0z.jpg" alt=""></p><h2 id="国内社区"><a href="#国内社区" class="headerlink" title="国内社区"></a>国内社区</h2><p>元界已建立telegram群组，欢迎大家加入：<a href="https://t.me/yuanjie" target="_blank" rel="external">https://t.me/yuanjie</a></p><p>元界新浪微博已开通，欢迎大家关注：<a href="http://weibo.com/u/6356057248" target="_blank" rel="external">http://weibo.com/u/6356057248</a></p><p>##海外社区<br>Slack link: <a href="https://metaverse-project.herokuapp.com" target="_blank" rel="external">https://metaverse-project.herokuapp.com</a></p><p>Reddit link: <a href="https://www.reddit.com/r/Metaverse_Blockchain/" target="_blank" rel="external">https://www.reddit.com/r/Metaverse_Blockchain/</a></p><p>Blog英文版即将上线。</p><h2 id="CTO陈浩线上直播"><a href="#CTO陈浩线上直播" class="headerlink" title="CTO陈浩线上直播"></a>CTO陈浩线上直播</h2><p>元界CTO陈浩9.27日（今天）20：30~21：30将在微课帮线上开讲，我们来谈一谈区块链下的数字身份应用。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201709/27/172442cg88gaa58c6i6jjq.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Web钱包开发进展&quot;&gt;&lt;a href=&quot;#Web钱包开发进展&quot; class=&quot;headerlink&quot; title=&quot;Web钱包开发进展&quot;&gt;&lt;/a&gt;Web钱包开发进展&lt;/h1&gt;&lt;p&gt;##新版本发布&lt;br&gt;本月6日正式发布元界钱包0.7.0版本，此版本为元界钱包发布以
+      
+    
+    </summary>
+    
+      <category term="metaverse developer report" scheme="http://blog.mvs.live/categories/metaverse-developer-report/"/>
+    
+    
+      <category term="upgrade" scheme="http://blog.mvs.live/tags/upgrade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse Introduction</title>
+    <link href="http://blog.mvs.live/mvs-paramters-en/"/>
+    <id>http://blog.mvs.live/mvs-paramters-en/</id>
+    <published>2017-09-20T04:28:00.000Z</published>
+    <updated>2017-09-20T08:08:27.684Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="About-Metaverse"><a href="#About-Metaverse" class="headerlink" title="About Metaverse"></a>About Metaverse</h1><p>Metaverse is a public blockchain based on the PoW consensus mechanism. Metaverse is committed to providing decentralized services based on asset registration, digital asset exchange, digital identity and value intermediaries in order to build an open ecosystem in which digital value can be circulated freely. ETP is the token used on Metaverse and can be used to measure the value of smart properties in Metaverse or as collateral in financial transactions. ETP is also used to pay transaction and other fees applied on Metaverse.</p><h1 id="Official-Website"><a href="#Official-Website" class="headerlink" title="Official Website"></a>Official Website</h1><p><a href="http://mvs.org" target="_blank" rel="external">https://mvs.org</a></p><h1 id="White-Paper-Address"><a href="#White-Paper-Address" class="headerlink" title="White Paper  Address"></a>White Paper  Address</h1><p><a href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-EN.pdf" target="_blank" rel="external">http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-EN.pdf</a></p><h1 id="Metaverse-Main-Net-Parameters"><a href="#Metaverse-Main-Net-Parameters" class="headerlink" title="Metaverse Main Net Parameters"></a>Metaverse Main Net Parameters</h1><table><thead><tr><th>Parameter</th><th style="text-align:center">Value</th><th style="text-align:right">Unit</th></tr></thead><tbody><tr><td>Total supply</td><td style="text-align:center">100,000,000</td><td style="text-align:right">ETP</td></tr><tr><td>Current circulation</td><td style="text-align:center">52,244,767</td><td style="text-align:right">ETP</td></tr><tr><td>Mining algorithm</td><td style="text-align:center">Improved version of ETHASH</td><td style="text-align:right">-</td></tr><tr><td>Theoretical block generation time</td><td style="text-align:center">24</td><td style="text-align:right">Second</td></tr><tr><td>Actual block generation time</td><td style="text-align:center">32</td><td style="text-align:right">Second</td></tr><tr><td>ETP mining rewards</td><td style="text-align:center">The initial reward is 3ETP. Mining rewards decrease by 5% every 500,000 blocks</td><td style="text-align:right">ETP/block</td></tr><tr><td>Algorithm difficulty adjustment</td><td style="text-align:center">Adjust every block(with mo difficulty bomb)</td><td style="text-align:right">-</td></tr><tr><td>Main net go-live time</td><td style="text-align:center">2017.2.11</td><td style="text-align:right">-</td></tr></tbody></table><h1 id="Block-Explorer-Address"><a href="#Block-Explorer-Address" class="headerlink" title="Block Explorer Address"></a>Block Explorer Address</h1><p><a href="http://explorer.mvs.live/#!/" target="_blank" rel="external">http://explorer.mvs.live/#!/</a></p><h1 id="Wallet-Download-Address"><a href="#Wallet-Download-Address" class="headerlink" title="Wallet Download Address"></a>Wallet Download Address</h1><p><a href="https://mvs.org/#download" target="_blank" rel="external">https://mvs.org/#download</a></p><h1 id="Metaverse-Logo"><a href="#Metaverse-Logo" class="headerlink" title="Metaverse Logo"></a>Metaverse Logo</h1><p>Provide a full-sized Metaverse logo in PNG and SVG format</p><p>Download address:</p><p><a href="http://newmetaverse.org/img/metaverse-logo.zip" target="_blank" rel="external">http://newmetaverse.org/img/metaverse-logo.zip</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;About-Metaverse&quot;&gt;&lt;a href=&quot;#About-Metaverse&quot; class=&quot;headerlink&quot; title=&quot;About Metaverse&quot;&gt;&lt;/a&gt;About Metaverse&lt;/h1&gt;&lt;p&gt;Metaverse is a pub
+      
+    
+    </summary>
+    
+      <category term="blockchain metaverse" scheme="http://blog.mvs.live/categories/blockchain-metaverse/"/>
+    
+    
+      <category term="prameters" scheme="http://blog.mvs.live/tags/prameters/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse(元界)项目进展报告-2017年8月</title>
+    <link href="http://blog.mvs.live/developer-report-8/"/>
+    <id>http://blog.mvs.live/developer-report-8/</id>
+    <published>2017-08-31T03:50:00.000Z</published>
+    <updated>2017-08-31T04:12:11.158Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Web钱包开发进展"><a href="#Web钱包开发进展" class="headerlink" title="Web钱包开发进展"></a>Web钱包开发进展</h1><p>本月研发工作主要分为钱包系统优化和新特性开发两大部分</p><h2 id="性能优化"><a href="#性能优化" class="headerlink" title="性能优化"></a>性能优化</h2><ul><li>崩溃修复（初始化数据库失败导致）</li><li>优化日志系统减少日志大小方便用户反馈问题</li><li>针对交易量庞大的账户优化了交易查询相关命令执行效率（提升约40倍</li><li>账户高级备份（导出到加密文件）</li><li>优化mongoose服务，提升web钱包相应速度</li><li>Visual Studio 2015 开发环境搭建</li></ul><p><img src="http://bbs.viewfin.com/data/attachment/forum/201708/31/111554w9hd3zyqpc6peyv6.png" alt=""></p><h2 id="新特性"><a href="#新特性" class="headerlink" title="新特性"></a>新特性</h2><ul><li>钱包改为操作系统后台运行，启动后可以在任务栏进行钱包打开、退出等操作（目前支持windows和os x）</li><li>多重签名交易</li><li>交易地址订阅</li><li>资产增发</li><li>ETP交易发送命令支持交易说明</li><li>Mac系统安装包制作</li></ul><p><img src="http://bbs.viewfin.com/data/attachment/forum/201708/31/111748wljblir9riil7lrb.jpg" alt=""></p><p>注：部分特性功能目前仍处于内测中，后续版本中会陆续放出。</p><p>Web钱包0.7.0版本已进入内测阶段，将尽快发布。</p><h1 id="手机钱包开发进展"><a href="#手机钱包开发进展" class="headerlink" title="手机钱包开发进展"></a>手机钱包开发进展</h1><h2 id="TokenMaster"><a href="#TokenMaster" class="headerlink" title="TokenMaster"></a>TokenMaster</h2><p>本月正式推出TokenMaster 安卓版本，官网下载：<a href="https://tokenmaster.info/" target="_blank" rel="external">https://tokenmaster.info/</a></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201708/31/112014jvdg340uv46en666.png" alt=""></p><p>Token Master是一款安全易用、功能强大的手机端数字资产钱包，支持多链多币种，兼容各平台。</p><p>【主要功能】<br>1、    界面简洁、交互流畅，方便数字资产的管理；<br>2、    支持扫码收付，转账、收款快捷轻便，秒速到账；<br>3、    跨链跨平台支持多种主流的数字货币，无需在多应用中切换，便捷高效；<br>4、    自动获取数字货币的交易所实时价格，显示数字资产价值；</p><h2 id="元界轻钱包"><a href="#元界轻钱包" class="headerlink" title="元界轻钱包"></a>元界轻钱包</h2><p>本月，元界轻钱包已完成了整体的功能定义和大部分页面设计工作，元界轻钱包数据将与Web端钱包兼容。</p><p>界面预览：<br><img src="http://bbs.viewfin.com/data/attachment/forum/201708/31/112142pqwh8icxsggnhcsi.jpg" alt=""></p><h1 id="其他研发进展"><a href="#其他研发进展" class="headerlink" title="其他研发进展"></a>其他研发进展</h1><h2 id="元界官网更新"><a href="#元界官网更新" class="headerlink" title="元界官网更新"></a>元界官网更新</h2><p>元界官网全新改版上线，地址：<a href="https://mvs.org/" target="_blank" rel="external">https://mvs.org/</a></p><h2 id="元界数字身份白皮书"><a href="#元界数字身份白皮书" class="headerlink" title="元界数字身份白皮书"></a>元界数字身份白皮书</h2><p>元界数字身份白皮书已进入第1.1版修订阶段，将尽快发布。</p><p>数字身份将基于元界的生态体系搭建，根据元界区块链提供的底层功能，围绕BaaS及钱包来开展数字身份的应用，以期为各行各业提供可验证、可授权的基础设施服务。</p><h2 id="区块链即服务（BaaS"><a href="#区块链即服务（BaaS" class="headerlink" title="区块链即服务（BaaS)"></a>区块链即服务（BaaS)</h2><p>元界CTO陈浩提出区块链即服务（BaaS）概念并对该概念做出了初步的探讨。</p><p>区块链即服务（BaaS）—— Blockchain as a Service，是指利用公有区块链产生的数据，提供基于区块链的搜索查询、交易提交，数据分析等一系列操作服务，该操作服务集合可能是中心化的，也可以是去中心化的。目前在区块链领域，区块浏览器、数字货币交易平台以及公链衍生应用：存证型-Factom， 数字身份型-uPort 等都可称之为区块链服务。</p><p>具体可见陈浩发布的文章<a href="http://www.sohu.com/a/166354830_609518" target="_blank" rel="external">《从区块链即服务（BaaS）到价值互联网》</a></p><h2 id="MVShub"><a href="#MVShub" class="headerlink" title="MVShub"></a>MVShub</h2><p>提交mvshub，旨在提供一个开放开源的基于BaaS的区块链项目的代码库，期待所有开发者的参与。</p><p>Github：<a href="https://github.com/mvshub" target="_blank" rel="external">https://github.com/mvshub</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Web钱包开发进展&quot;&gt;&lt;a href=&quot;#Web钱包开发进展&quot; class=&quot;headerlink&quot; title=&quot;Web钱包开发进展&quot;&gt;&lt;/a&gt;Web钱包开发进展&lt;/h1&gt;&lt;p&gt;本月研发工作主要分为钱包系统优化和新特性开发两大部分&lt;/p&gt;
+&lt;h2 id=&quot;性能优
+      
+    
+    </summary>
+    
+      <category term="metaverse developer report" scheme="http://blog.mvs.live/categories/metaverse-developer-report/"/>
+    
+    
+      <category term="upgrade" scheme="http://blog.mvs.live/tags/upgrade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界(Metaverse)PC客户端常见问题解答</title>
+    <link href="http://blog.mvs.live/qa-for-mvs/"/>
+    <id>http://blog.mvs.live/qa-for-mvs/</id>
+    <published>2017-08-24T03:54:00.000Z</published>
+    <updated>2017-08-24T04:17:16.882Z</updated>
+    
+    <content type="html"><![CDATA[<p><font color="66ccff">注：本文档适用于元界客户端0.6.4~0.6.10版本</font></p><h1 id="资产的收取和转移"><a href="#资产的收取和转移" class="headerlink" title="资产的收取和转移"></a>资产的收取和转移</h1><h4 id="1、-使用元界钱包提币是否收取手续费？"><a href="#1、-使用元界钱包提币是否收取手续费？" class="headerlink" title="1、    使用元界钱包提币是否收取手续费？"></a>1、    使用元界钱包提币是否收取手续费？</h4><p>不收取手续费，每笔均会收取0.0001个etp的矿工费，单边按次收费。同一账户不同地址之间相互转账，同样会收取矿工费。</p><h4 id="2、-如果要转移ZGC或是钱包内除ETP外的其他资产，是如何收费的？"><a href="#2、-如果要转移ZGC或是钱包内除ETP外的其他资产，是如何收费的？" class="headerlink" title="2、    如果要转移ZGC或是钱包内除ETP外的其他资产，是如何收费的？"></a>2、    如果要转移ZGC或是钱包内除ETP外的其他资产，是如何收费的？</h4><p>收取0.0001个etp的矿工费。</p><h4 id="3、-转币时提示“无法发送资产”"><a href="#3、-转币时提示“无法发送资产”" class="headerlink" title="3、    转币时提示“无法发送资产”"></a>3、    转币时提示“无法发送资产”</h4><p>使用元界钱包转币每次需收取0.0001etp的矿工费用，请检查您的钱包内是否有足够的etp来交付矿工费。</p><h4 id="4、-提示“无法转让-no-enough-balance”"><a href="#4、-提示“无法转让-no-enough-balance”" class="headerlink" title="4、    提示“无法转让! no enough balance”"></a>4、    提示“无法转让! no enough balance”</h4><p>使用元界钱包转币每次需收取0.0001etp的矿工费用，因此填写转币数量时，请确保钱包内至少剩余0.0001etp。</p><h4 id="5、-账户内的资产显示为0-提币到元界钱包没收到-重新同步后钱包资产变少了"><a href="#5、-账户内的资产显示为0-提币到元界钱包没收到-重新同步后钱包资产变少了" class="headerlink" title="5、    账户内的资产显示为0/提币到元界钱包没收到/重新同步后钱包资产变少了"></a>5、    账户内的资产显示为0/提币到元界钱包没收到/重新同步后钱包资产变少了</h4><p>是因为同步未完成所以资产未显示，耐心等待同步完成即可。</p><h1 id="安装与同步"><a href="#安装与同步" class="headerlink" title="安装与同步"></a>安装与同步</h1><h4 id="1、-为什么没有Win32位版本？"><a href="#1、-为什么没有Win32位版本？" class="headerlink" title="1、    为什么没有Win32位版本？"></a>1、    为什么没有Win32位版本？</h4><p>Win32系统目前存在兼容性问题，还在调试当中，因此还没有正式的版本发布。</p><h4 id="2、-同步程序打开闪退、自动消失怎么办？"><a href="#2、-同步程序打开闪退、自动消失怎么办？" class="headerlink" title="2、    同步程序打开闪退、自动消失怎么办？"></a>2、    同步程序打开闪退、自动消失怎么办？</h4><p><font color="#FF0000">首先请确认您已保存好钱包私钥（助记符，共24个英文单词）；如果您已丢失钱包私钥，请先联系客服。</font><br>Windows：</p><blockquote><p>%HOMEPATH%\AppData\Roaming\Metaverse</p></blockquote><p>Mac-OSX：</p><blockquote><p>~/Library/Application\Support/Metaverse</p></blockquote><p>Linux(unix-like):</p><blockquote><p>~/.metaverse</p></blockquote><p>操作方法：请根据自己的电脑系统选择复制上面的灰色部分字符串，并粘贴到电脑的地址栏，如下图所示：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201708/24/112832vzgb7m1czv71s2v3.png" alt=""><br>回车后显示如下界面<br><img src="http://bbs.viewfin.com/data/attachment/forum/201708/24/112852p12h1gkz1p3ah5ar.png" alt=""><br>请删除第一个“mainnet”文件，然后打开同步程序重新开始同步。</p><h4 id="3、-mvsd-exe程序打开电脑就死机了。"><a href="#3、-mvsd-exe程序打开电脑就死机了。" class="headerlink" title="3、    mvsd.exe程序打开电脑就死机了。"></a>3、    mvsd.exe程序打开电脑就死机了。</h4><p>这是由于同步程序初始化时需要占用大量磁盘，而您的电脑打开的程序太多，磁盘占用率太高，造成了电脑死机。请将除mvsd.exe以外的其他所有电脑程序全部关闭再打开同步程序即可。</p><h4 id="4、-登录账号提示“无效的登录凭证”"><a href="#4、-登录账号提示“无效的登录凭证”" class="headerlink" title="4、    登录账号提示“无效的登录凭证”"></a>4、    登录账号提示“无效的登录凭证”</h4><p>可能原因有：1、使用了浏览器缓存的账号密码；2、账号或密码出错；3、账号密码已失效（这种情况在您更换了电脑或是重装程序之后会发生）；<br>解决方法：先尝试清除浏览器数据，手动输入账号密码，不成功的话重启同步程序和钱包页面再试。如果仍旧无法登陆，重新申请账号（新账号用户名最好与原账号不同）并导入原账号的私钥。</p><h4 id="5、-无法导入私钥"><a href="#5、-无法导入私钥" class="headerlink" title="5、    无法导入私钥"></a>5、    无法导入私钥</h4><p>可能是由于新账号的用户名与要导入的原账号的用户名相同造成的，请更换用户名。</p><h4 id="6、-安全软件提示木马或病毒-同步程序被安全软件自动删除"><a href="#6、-安全软件提示木马或病毒-同步程序被安全软件自动删除" class="headerlink" title="6、    安全软件提示木马或病毒/同步程序被安全软件自动删除"></a>6、    安全软件提示木马或病毒/同步程序被安全软件自动删除</h4><p>提示病毒属于安全软件误判，请选择信任同步程序。如果同步程序被安全软件当做病毒误删，请在安全软件内设置信任同步程序。<br>360操作方法：打开360安全卫士，点击左下角的防护中心，然后弹出一个界面，右上角有个信任与阻止。进去后，把删掉的同步文件，点击信任并还原。</p><h4 id="7、-打开钱包网址提示“not-found”"><a href="#7、-打开钱包网址提示“not-found”" class="headerlink" title="7、    打开钱包网址提示“not found”"></a>7、    打开钱包网址提示“not found”</h4><p>首先，请保证同步程序已开启。请将安装包内的mvs-htmls文件、mvsd.exe文件和start-metaverse.html文件放在电脑的同一个目录下，即，请您安装钱包之后，不要轻易变动所有文件的位置。</p><h4 id="8、-导入原账户的私钥后，原账户的地址丢失。"><a href="#8、-导入原账户的私钥后，原账户的地址丢失。" class="headerlink" title="8、    导入原账户的私钥后，原账户的地址丢失。"></a>8、    导入原账户的私钥后，原账户的地址丢失。</h4><p>可能有以下原因：</p><ul><li>新账户地址不足：点击“Create new address”新建地址或是重新申请账号导入私钥，并填写一个较大的地址数额（如100个）</li><li>私钥不正确。</li></ul><h1 id="ZGC相关"><a href="#ZGC相关" class="headerlink" title="ZGC相关"></a>ZGC相关</h1><h4 id="1、-如何生成ZGC地址-钱包里没有ZGC地址-转ZGC到钱包转到哪个地址？"><a href="#1、-如何生成ZGC地址-钱包里没有ZGC地址-转ZGC到钱包转到哪个地址？" class="headerlink" title="1、    如何生成ZGC地址/钱包里没有ZGC地址/转ZGC到钱包转到哪个地址？"></a>1、    如何生成ZGC地址/钱包里没有ZGC地址/转ZGC到钱包转到哪个地址？</h4><p>不需要特意为ZGC生成地址，钱包里的任意一个地址都可以接收ZGC。</p><h4 id="2、-钱包里的ZGC如何转移到其他钱包-平台？"><a href="#2、-钱包里的ZGC如何转移到其他钱包-平台？" class="headerlink" title="2、    钱包里的ZGC如何转移到其他钱包/平台？"></a>2、    钱包里的ZGC如何转移到其他钱包/平台？</h4><p>进入“资产详情”&gt;”ZGC”<br><img src="http://bbs.viewfin.com/data/attachment/forum/201708/24/113016vrruc8rgr8gx5rrb.png" alt=""><br>点击“确认转移”进入转账页面<br><img src="http://bbs.viewfin.com/data/attachment/forum/201708/24/113047bj3k5jcxdlfrmwxz.png" alt=""><br>输入接收地址、您的钱包账户密码、需要转移的数量即可。</p><h4 id="3、-ZGC转账如何收取手续费？"><a href="#3、-ZGC转账如何收取手续费？" class="headerlink" title="3、 ZGC转账如何收取手续费？"></a>3、 ZGC转账如何收取手续费？</h4><p>收取0.0001个ETP的矿工费。</p><h4 id="4、-ZGC面板详解"><a href="#4、-ZGC面板详解" class="headerlink" title="4、 ZGC面板详解"></a>4、 ZGC面板详解</h4><p><img src="http://bbs.viewfin.com/data/attachment/forum/201708/24/113202d0qesqqqrp034rtq.png" alt=""><br>unspent”为正常状态，指目前这些ZGC资产在钱包中并且可用。<br><img src="http://bbs.viewfin.com/data/attachment/forum/201708/24/113219fzdfew2qpphynu1u.png" alt=""><br>上图面板中的地址为ZGC的发行地址。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;font color=&quot;66ccff&quot;&gt;注：本文档适用于元界客户端0.6.4~0.6.10版本&lt;/font&gt;&lt;/p&gt;
+&lt;h1 id=&quot;资产的收取和转移&quot;&gt;&lt;a href=&quot;#资产的收取和转移&quot; class=&quot;headerlink&quot; title=&quot;资产的收取和转移&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse(元界)项目进展报告-2017年7月</title>
+    <link href="http://blog.mvs.live/developer-report-7/"/>
+    <id>http://blog.mvs.live/developer-report-7/</id>
+    <published>2017-07-28T11:06:00.000Z</published>
+    <updated>2017-07-28T11:30:22.907Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Web钱包开发进展"><a href="#Web钱包开发进展" class="headerlink" title="Web钱包开发进展"></a>Web钱包开发进展</h1><h2 id="新版本发布"><a href="#新版本发布" class="headerlink" title="新版本发布"></a>新版本发布</h2><p>本月20日发布了元界钱包新版本v0.6.10，主要进行了以下性能优化以及功能增加：</p><ul><li>查询性能优化</li><li>网络流量优化</li><li>修复交易发送失败</li><li>修复Linux各个系列的兼容性问题</li><li>增加多重签名功能</li></ul><p>Release Notes请参见<a href="http://blog.mvs.live/latest-releasenotes/">http://blog.mvs.live/latest-releasenotes/</a></p><p><a href="https://github.com/mvs-org/metaverse/issues" target="_blank" rel="external">Github Issue</a></p><h2 id="白皮书更新"><a href="#白皮书更新" class="headerlink" title="白皮书更新"></a>白皮书更新</h2><p>白皮书新增 <em>元界区块链即服务的设想</em> 内容，白皮书下载地址：<a href="http://t.cn/R9y9hEA" target="_blank" rel="external">http://t.cn/R9y9hEA</a> </p><h2 id="产品界面设计"><a href="#产品界面设计" class="headerlink" title="产品界面设计"></a>产品界面设计</h2><p>Web版钱包最新版界面预览</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183558zni50gggtb7iigz7.jpg" alt="image"></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183559yiugyfzflnsebezd.png" alt="image"></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183558zdnqlgp99lnn5old.png" alt="image"></p><h1 id="手机钱包开发进展"><a href="#手机钱包开发进展" class="headerlink" title="手机钱包开发进展"></a>手机钱包开发进展</h1><p>元界将推出支持包括ETP在内的多种主流货币的手机钱包，本月已完成手机钱包的大部分研发，请大家期待上线。</p><p>界面预览：</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183634pq4w4k9z19hiilyh.png" alt="image"></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183634ft2jg0hva82020hu.png" alt="image"></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183635mbv6tbsvm7e64y46.png" alt="image"></p><h1 id="区块浏览器优化"><a href="#区块浏览器优化" class="headerlink" title="区块浏览器优化"></a>区块浏览器优化</h1><p>区块浏览器新增全网算力与难度显示、交易确认数显示、单位精度调整，区块浏览器地址：<a href="https://explorer.mvs.live/#!/" target="_blank" rel="external">https://explorer.mvs.live/#!/ </a></p><h1 id="市场和运营工作进展"><a href="#市场和运营工作进展" class="headerlink" title="市场和运营工作进展"></a>市场和运营工作进展</h1><h2 id="ARCH-SUMMIT全球架构师峰会"><a href="#ARCH-SUMMIT全球架构师峰会" class="headerlink" title="ARCH SUMMIT全球架构师峰会"></a>ARCH SUMMIT全球架构师峰会</h2><p>本月，维优元界CTO陈浩率领元界项目核心技术成员参加了在深圳举办的Arch Summit全球架构师峰会，并在峰会上发表了以“公有区块链与区块链即服务”为主题的精彩演讲，分享了元界公有区块链的技术实践和区块链未来的新架构模式。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183726ib1n26acncn0a2nu.jpg" alt="image"></p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201707/28/183726t5tkjajmzpcj1phm.jpg" alt="image"></p><p>本次演讲的PPT下载请见：<a href="http://t.cn/R923Y9E" target="_blank" rel="external">http://t.cn/R923Y9E</a></p><h2 id="开发者答疑"><a href="#开发者答疑" class="headerlink" title="开发者答疑"></a>开发者答疑</h2><p>本月13日，CTO陈浩为元界社区以及微信群用户进行了专场答疑，收到了很多有深度的问题以及建设性的建议，本次答疑的文字版请访问：<a href="http://t.cn/R92r7Fe" target="_blank" rel="external">http://t.cn/R92r7Fe</a></p><h2 id="全球社区搭建"><a href="#全球社区搭建" class="headerlink" title="全球社区搭建"></a>全球社区搭建</h2><p>Twitter、Reddit、Facebook、Vimeo、Slack等海外媒体渠道均已搭建，旨在进一步加深和海外开发者的互动，充分激活全球开发力量。</p><p>元界英文版社区已搭建完成并上线，地址：<a href="https://metaversetalk.org/forum.php" target="_blank" rel="external">https://metaversetalk.org/forum.php </a></p><h2 id="Finwise"><a href="#Finwise" class="headerlink" title="Finwise"></a>Finwise</h2><p>本月30-31日，元界还将参加在上海举办的Finwise纷智·全球区块链峰会，欢迎大家关注：<a href="http://finwisesummit.org/" target="_blank" rel="external">http://finwisesummit.org/ </a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Web钱包开发进展&quot;&gt;&lt;a href=&quot;#Web钱包开发进展&quot; class=&quot;headerlink&quot; title=&quot;Web钱包开发进展&quot;&gt;&lt;/a&gt;Web钱包开发进展&lt;/h1&gt;&lt;h2 id=&quot;新版本发布&quot;&gt;&lt;a href=&quot;#新版本发布&quot; class=&quot;header
+      
+    
+    </summary>
+    
+      <category term="metaverse developer report" scheme="http://blog.mvs.live/categories/metaverse-developer-report/"/>
+    
+    
+      <category term="upgrade" scheme="http://blog.mvs.live/tags/upgrade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse(元界)开发进展报告-2017年6月</title>
+    <link href="http://blog.mvs.live/mvs-developing-report/201706/"/>
+    <id>http://blog.mvs.live/mvs-developing-report/201706/</id>
+    <published>2017-06-30T05:44:21.000Z</published>
+    <updated>2017-06-30T11:18:36.775Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="元界开发与运营工作进展"><a href="#元界开发与运营工作进展" class="headerlink" title="元界开发与运营工作进展: "></a>元界开发与运营工作进展: </h2><p>本月15日发布了元界钱包新版本v0.6.9，ReleaseNotes 请参见:<a href="http://blog.mvs.live/latest-releasenotes/">http://blog.mvs.live/latest-releasenotes/</a><br>以下内容是本月元界开发者正在进行的开发工作：</p><h2 id="全节点钱包"><a href="#全节点钱包" class="headerlink" title="全节点钱包"></a>全节点钱包</h2><ol><li><p>节点广播性能优化, <a href="https://github.com/mvs-live/metaverse/issues/18" target="_blank" rel="external">Github Issue 18</a></p></li><li><p>解决交易广播失败的问题<br>根据用户的反馈，在v0.6.9版本中出现了较高频率的交易广播失败，v0.6.10版本将重点解决；</p></li><li><p>产品界面重新设计<br>Web新版界面预览：<br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/20170630135211.jpg" alt="实例图片2"><br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/20170630135347.jpg" alt="实例图片3"><br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/20170630170936.jpg" alt="实例图片4"><br>新版UI我们对不同用户频度的操作作了优化，并在显示和排版做了重新调整，以期带来更好的使用体验；<br>移动端界面的预览：<br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/20170630175505.jpg" alt="实例图片5"><br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/20170630135057.jpg" alt="实例图片6"></p></li><li><p>全球活跃全节点统计与可视化</p></li><li><p>完善单元测试代码</p></li><li><p>Github Travis.ci配置持续集成</p></li><li><p>新版本支持一键安装包</p></li><li><p>新增元界维基百科: <a href="https://en.wikipedia.org/wiki/Metaverse_Blockchain" target="_blank" rel="external">https://en.wikipedia.org/wiki/Metaverse_Blockchain</a></p></li><li><p>比特币维基（bitcoin wiki）新增有关元界的链接: <a href="https://en.bitcoin.it/wiki/Libbitcoin" target="_blank" rel="external">https://en.bitcoin.it/wiki/Libbitcoin</a></p></li><li><p>BBS有奖社区活动: <a href="http://bbs.viewfin.com" target="_blank" rel="external">http://bbs.viewfin.com</a></p></li></ol><h2 id="轻钱包"><a href="#轻钱包" class="headerlink" title="轻钱包"></a>轻钱包</h2><p>元界轻钱包产品设计阶段, 下图是轻钱包设计的功能原型图：<br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/moblie-arch.png" alt="原型图"></p><p><strong> 元界核心开发团队开发轻钱包的同时，社区也可以参与开发，元界基金会将根据产品设计奖励开发者； </strong></p><h2 id="区块浏览器功能增强"><a href="#区块浏览器功能增强" class="headerlink" title="区块浏览器功能增强"></a>区块浏览器功能增强</h2><ol><li>主网络异常警报功能</li><li>功能重新调整与增强</li></ol><p><strong> 元界核心开发团队开发区块浏览器的同时，社区也可以参与开发，元界基金会将根据产品设计奖励开发者； </strong></p><h2 id="元界区块链改进协议-MIP-Metaverse-Improvement-Proposals"><a href="#元界区块链改进协议-MIP-Metaverse-Improvement-Proposals" class="headerlink" title="元界区块链改进协议(MIP-Metaverse Improvement Proposals)"></a>元界区块链改进协议(MIP-Metaverse Improvement Proposals)</h2><p>See Github Repository <a href="https://github.com/mvs-live/mips" target="_blank" rel="external">https://github.com/mvs-live/mips</a><br>新版本协议考虑新增一下两个功能：</p><ol><li>资产issue时，提供资产可增发功能</li><li>资产转移时，提供资产可冻结功能</li></ol><p>针对此类MIP，后续会提供MIP研究报告<br><strong> 元界核心开发团队提出MIP同时，社区也可以参与，元界基金会将根据提案内容奖励MIP提供者； </strong></p><h2 id="开发者以及开发者社区构建"><a href="#开发者以及开发者社区构建" class="headerlink" title="开发者以及开发者社区构建"></a>开发者以及开发者社区构建</h2><p>请参与到元界开发者社区微信群：<br><img src="http://newmetaverse.org/img/mvs-developing-report/201706/20170630171645.jpg" alt="微信群二维码"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;元界开发与运营工作进展&quot;&gt;&lt;a href=&quot;#元界开发与运营工作进展&quot; class=&quot;headerlink&quot; title=&quot;元界开发与运营工作进展: &quot;&gt;&lt;/a&gt;元界开发与运营工作进展: &lt;/h2&gt;&lt;p&gt;本月15日发布了元界钱包新版本v0.6.9，ReleaseN
+      
+    
+    </summary>
+    
+      <category term="metaverse developer report" scheme="http://blog.mvs.live/categories/metaverse-developer-report/"/>
+    
+    
+      <category term="upgrade" scheme="http://blog.mvs.live/tags/upgrade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界钱包“助记关键词(私钥）”作用详解</title>
+    <link href="http://blog.mvs.live/private-key/"/>
+    <id>http://blog.mvs.live/private-key/</id>
+    <published>2017-06-20T11:00:00.000Z</published>
+    <updated>2017-09-20T10:07:22.989Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>注意：本文档适用于0.6.10及一下版本钱包。<br><a href="http://mvs.live/attachment/Metaverse-wallet-manual070.pdf" target="_blank" rel="external">0.7.0版本钱包使用手册</a></strong><br>当您在元界钱包申请一个新账户时，可以收到钱包提供的一串助记关键词：<br><img src="http://bbs.viewfin.com/data/attachment/forum/201705/31/113315sup9cc5jnjgz3zsn.png" alt="1"><br>如上图红色马赛克的部分，助记关键词是一串英文单词。</p><p>这一串私钥助记关键词非常重要，<strong>请不要向任何人吐露您的助记关键词的全部或部分单词，请不要忘记/遗失您的助记关键词。</strong></p><p>这是储存您账户信息的重要私钥，其作用在于，当您更换电脑登录您的账户，或者您不小心遗失了您的账户密码或账户内的信息时，私钥可以帮助您找回所有的账户信息。</p><p><strong>使用方法（找回账户信息或更换电脑）：</strong></p><p>在登录页面选择“新建”后，在跳出的页面中勾选“导入账户”，并输入您的主账户助记符，则新建账户可以找回您的所有原账户信息：<br><img src="http://bbs.viewfin.com/data/attachment/forum/201705/31/114033bitoj5qj133mj3oz.png" alt="2"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;注意：本文档适用于0.6.10及一下版本钱包。&lt;br&gt;&lt;a href=&quot;http://mvs.live/attachment/Metaverse-wallet-manual070.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;0.7
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界钱包同步指南</title>
+    <link href="http://blog.mvs.live/synchronization-guide/"/>
+    <id>http://blog.mvs.live/synchronization-guide/</id>
+    <published>2017-06-20T11:00:00.000Z</published>
+    <updated>2017-09-20T10:07:42.677Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>注意：本文档适用于0.6.10及一下版本钱包。<br><a href="http://mvs.live/attachment/Metaverse-wallet-manual070.pdf" target="_blank" rel="external">0.7.0版本钱包使用手册</a></strong></p><p><strong>1、如何判断元界钱包是否在同步</strong><br><img src="http://bbs.viewfin.com/data/attachment/forum/201705/25/161839i8g0m0g2v2ee692j.png" alt="1"><br>持续显示以上界面，且红框内的数字持续增长，则说明钱包正在同步中。</p><p>您的钱包同步失败，请检查钱包是否为最新版本，是否网速太慢，建议关闭同步程序重新开始。钱包最新版下载地址：<a href="http://mvs.live/index_cn.html#download" target="_blank" rel="external">http://mvs.live/index_cn.html#download</a></p><p><strong>2、如何判断钱包是否同步完成？</strong><br><img src="http://bbs.viewfin.com/data/attachment/forum/201705/25/144205izmaotb5gmmmolo5.png" alt="2"></p><p>一般来说当屏幕上的数字不再更新，持续出现“connected  to  outbound channel”时，说明同步已完成。</p><p>或者点击<a href="http://explorer.mvs.live/" target="_blank" rel="external">http://explorer.mvs.live/</a> 查看最新的区块数量，同步程序显示的区块数字与最新区块数相同则同步完毕。</p><p>整个同步所需时间随着公链上区块数的增多而延长，一般需要两三个小时才可以完成同步，也取决于您的网速快慢。当同步完成后，下次再打开，则只需同步最新数据即可，不再需要从头同步。</p><p><strong>3、同步完成后如何操作？</strong></p><p>同步完成后请不要关闭同步程序，并打开安装包内附带的网址，进入网页钱包页面，注册账号。<em>（如果关掉同步程序网址无法访问）</em></p><p><em>注：请务必从此网址打开元界钱包，建议将此网址收藏。</em><br><em>注：在每次的元界钱包的使用过程中，均需打开同步程序，并请全称保持同步程序开启。</em></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;注意：本文档适用于0.6.10及一下版本钱包。&lt;br&gt;&lt;a href=&quot;http://mvs.live/attachment/Metaverse-wallet-manual070.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;0.7
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界钱包转账操作详解</title>
+    <link href="http://blog.mvs.live/transaction-guide/"/>
+    <id>http://blog.mvs.live/transaction-guide/</id>
+    <published>2017-06-20T11:00:00.000Z</published>
+    <updated>2017-09-20T10:07:22.989Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>注意：本文档适用于0.6.10及一下版本钱包。<br><a href="http://mvs.live/attachment/Metaverse-wallet-manual070.pdf" target="_blank" rel="external">0.7.0版本钱包使用手册</a></strong></p><p>如需将ETP从元界钱包转到其他地址，请按照如下操作进行：</p><p>首先在左侧导航栏选择“我的资产”&gt;&gt;“ETP”</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201706/01/144848vdh5drn1xb59dn9d.png" alt="1"></p><p>右侧则会出现如下图所示的转账界面，按照下图黄字所示输入信息，点击“确认转移”，即可转账。</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201706/01/145156f8ia9a1t4l56tk88.png" alt="2"></p><p>交易区显示你所进行的转账交易记录</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201706/01/145409gf7puh74zpunb9tx.png" alt="3"></p><p>红色箭头表示这笔交易是从元界钱包转出ETP，绿色表示这笔交易是ETP从别处转入到你的元界钱包。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;注意：本文档适用于0.6.10及一下版本钱包。&lt;br&gt;&lt;a href=&quot;http://mvs.live/attachment/Metaverse-wallet-manual070.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;0.7
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界钱包“已停止工作”或是闪退的解决方法</title>
+    <link href="http://blog.mvs.live/solution-for-no-reaction-metaverse.md/"/>
+    <id>http://blog.mvs.live/solution-for-no-reaction-metaverse.md/</id>
+    <published>2017-06-20T10:10:00.000Z</published>
+    <updated>2017-06-20T10:53:51.954Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong><em>注意：如果你没有注册过元界钱包账号，可以直接操作；如果你曾经注册过元界钱包账号，在进行下列操作前，一定要先确认自己已保存好账户助记词（私钥）。</em></strong></p><p>元界钱包打开过程中，如果出现无法响应要求停止程序，或者打开同步程序就会闪退的情况，请按照以下步骤操作：</p><p>先关闭mvsd，然后打开“我的电脑”，在地址栏输入C:\Users\username\AppData\Roaming\Metaverse <em>（将username替换成本电脑的账户名）</em>，将此目录下的文件全部删除，然后重新打开mvsd同步程序。<br><img src="http://bbs.viewfin.com/data/attachment/forum/201705/25/143333fpcwfcak7c7gk2lf.png" alt="1">(所有文件全部删除)</p><p>重新同步完成之后，可能会出现登录时提示“<em>无效的登录凭证</em>”，请注册一个新账号（账号名不要和原账号相同）并且导入原账号的私钥即可。</p><p>如果出现<em>资产为0</em>或是资产少于原有账户资产的情况，是因为同步未完成，请耐心等待同步完成即可。</p><p>##如何查看自己电脑的username</p><p>按快捷键Win+R打开运行框，并输入cmd:<br><img src="http://bbs.viewfin.com/data/attachment/forum/201706/20/174111e1k33titkz11y085.png" alt="2"></p><p>回车，红框部分就是电脑的username:</p><p><img src="http://bbs.viewfin.com/data/attachment/forum/201706/20/174255qav1gsrfrg4pal89.png" alt="3"></p><p>则将C:\Users\ <strong>myka1</strong>\AppData\Roaming\Metaverse 目录下的文件全部删除。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;注意：如果你没有注册过元界钱包账号，可以直接操作；如果你曾经注册过元界钱包账号，在进行下列操作前，一定要先确认自己已保存好账户助记词（私钥）。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;元界钱包打开过程中，如果出现无法响应要求停止程序，或者打开同步程
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse(元界)将发布MIP细则</title>
+    <link href="http://blog.mvs.live/Metavese-MIPs-Avatar/"/>
+    <id>http://blog.mvs.live/Metavese-MIPs-Avatar/</id>
+    <published>2017-05-11T05:44:21.000Z</published>
+    <updated>2017-05-11T10:39:03.549Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>元界经过自2017.2.11主网开始运行，截至今日已经安全运行3个月整，共计89天。<br>其主网运行的一些参数如下：</p><ul><li>总量: 1亿</li><li>目前流通量: 2693万</li><li>挖矿算法: ethash</li><li>平均出块时间: 24秒</li><li>PoW币奖励个数: 每50万块0.95系数递减，初始奖励3个</li><li>PoW难度调整: 难度每个块调整</li><li>主网上线时间: 2017.2.11</li></ul><p>详细信息，感兴趣的读者查阅白皮书获取更多细节: <a href="http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf" target="_blank" rel="external">http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf</a></p><h1 id="MIPs-Metaverse-Improvement-Proposals"><a href="#MIPs-Metaverse-Improvement-Proposals" class="headerlink" title="MIPs(Metaverse Improvement Proposals)"></a>MIPs(Metaverse Improvement Proposals)</h1><p>这期间元界核心开发团队一共更新了7个补丁版本，从0.6.2~0.6.8版本。<br>大部分bug的修复记录均登记在Github <a href="https://github.com/mvs-live/metaverse/issues" target="_blank" rel="external">https://github.com/mvs-live/metaverse/issues</a>，均可查阅。</p><p>随着用户的增多，我们发现了一些问题，有些问题是钱包体验的问题，有些问题是兼容性问题。<br>核心团队经过讨论，针对非功能性的bug，我们会积极解决,<br>但如数字身份，资产质押等功能， 元界会发布一个类似BIPs的过程，<br>旨在社区提供更好的想法和改进，帮助构建一个更好的元界。<br>这个过程我们称之为MIP，目前处于起草阶段，详细信息可在Github上获得 <a href="https://github.com/mvs-live/mips" target="_blank" rel="external">https://github.com/mvs-live/mips</a> (持续更新)。</p><p>针对这些MIP，元界会提供ETP激励，敬请期待细则的颁布。</p><h1 id="第一个MIP-数字身份-Avatar-Digital-Identity"><a href="#第一个MIP-数字身份-Avatar-Digital-Identity" class="headerlink" title="第一个MIP-数字身份(Avatar, Digital Identity)"></a>第一个MIP-数字身份(Avatar, Digital Identity)</h1><p>元界核心开发团队的下一个目标，是数字身份(Avatar)设计与实现。<br>元界核心开发团队已经针对数字身份作了一些研究,并为数字作了一个初步定义：</p><p>数字身份是用户所拥有的主私钥所对应的账户的Profile信息的统称。<br>Profile拥有一个全网唯一标识，在元界中，我们称该标识为DID(Digital Identity，可类比比特股的别名)。<br>而Profile包含以下信息：</p><ul><li>个人交易记录;<ul><li>统计级别，记录明细，无需额外存储</li></ul></li><li>资产信息;<ul><li>统计级别，UTXO明细，无需额外存储</li></ul></li><li>全网评价记录;<ul><li>统计级别，记录明细，无需额外存储</li></ul></li><li>自定义描述字段<ul><li>自定义字段具有时效性，使用该字段应当指明在哪个高度区间有效，该记录可变更，对应不同区块高度有效。</li><li>该字段以key:value的形式提现，没有上限，但是使用该字段个数的所收取的费用服从指数函数。</li><li>需要额外存储</li></ul></li></ul><p>数字身份的核心功能是身份验证与交易授权。</p><p>接下来元界会陆续发布有关数字身份的研究和设计。</p><p>以上,<br>元界核心开发和运营团队</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;元界经过自2017.2.11主网开始运行，截至今日已经安全运行3个月整，共计89天。&lt;br&gt;其主网运行的一些参数如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="blockchain metaverse" scheme="http://blog.mvs.live/categories/blockchain-metaverse/"/>
+    
+    
+      <category term="metaverse" scheme="http://blog.mvs.live/tags/metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse（元界）主网参数信息</title>
+    <link href="http://blog.mvs.live/mvs-paramters/"/>
+    <id>http://blog.mvs.live/mvs-paramters/</id>
+    <published>2017-05-09T05:44:21.000Z</published>
+    <updated>2017-07-22T03:55:01.837Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="元界区块链主网参数"><a href="#元界区块链主网参数" class="headerlink" title="元界区块链主网参数"></a>元界区块链主网参数</h1><table><thead><tr><th>参数名称</th><th style="text-align:center">数值</th><th style="text-align:right">单位</th></tr></thead><tbody><tr><td>总量</td><td style="text-align:center">100,000,000</td><td style="text-align:right">ETP</td></tr><tr><td>目前流通量</td><td style="text-align:center">52,244,767</td><td style="text-align:right">ETP</td></tr><tr><td>挖矿算法</td><td style="text-align:center">ETHASH 改进版本</td><td style="text-align:right">-</td></tr><tr><td>理论平均出块时间</td><td style="text-align:center">24</td><td style="text-align:right">秒</td></tr><tr><td>实际平均出块时间</td><td style="text-align:center">32</td><td style="text-align:right">秒</td></tr><tr><td>挖矿ETP奖励</td><td style="text-align:center">初始 3 ETP，每50万块按0.95系数递减</td><td style="text-align:right">ETP/块</td></tr><tr><td>挖矿算法难度调整</td><td style="text-align:center">每块调整(无难度诅咒)</td><td style="text-align:right">-</td></tr><tr><td>主网上线时间</td><td style="text-align:center">2017.2.11</td><td style="text-align:right">-</td></tr></tbody></table><h1 id="Metaverse-Logo"><a href="#Metaverse-Logo" class="headerlink" title="Metaverse Logo"></a>Metaverse Logo</h1><p>提供元界Metaverse全尺寸logo PNG格式图片<br>下载地址:<br><a href="http://newmetaverse.org/img/mvs-logo.zip" target="_blank" rel="external">http://newmetaverse.org/img/mvs-logo.zip</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;元界区块链主网参数&quot;&gt;&lt;a href=&quot;#元界区块链主网参数&quot; class=&quot;headerlink&quot; title=&quot;元界区块链主网参数&quot;&gt;&lt;/a&gt;元界区块链主网参数&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数名称&lt;/th&gt;
+&lt;th style=
+      
+    
+    </summary>
+    
+      <category term="blockchain metaverse" scheme="http://blog.mvs.live/categories/blockchain-metaverse/"/>
+    
+    
+      <category term="prameters" scheme="http://blog.mvs.live/tags/prameters/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metaverse（元界）ETP钱包服务端使用指南</title>
+    <link href="http://blog.mvs.live/metaverse-setup-guide-for-service/"/>
+    <id>http://blog.mvs.live/metaverse-setup-guide-for-service/</id>
+    <published>2017-05-08T05:44:21.000Z</published>
+    <updated>2017-05-09T03:39:20.121Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>元界钱包基于Libbitcoin实现。<br>rpc的使用上的概念与比特币十分类似，但是接口不同。</p><h1 id="rpc的调用"><a href="#rpc的调用" class="headerlink" title="rpc的调用"></a>rpc的调用</h1><p>rpc开启的默认端口是 8820, 暂不支持https。<br>您也可以在 mvs.conf 中配置为其他端口。<br>php 对接ETP钱包的示例代码请参考： <a href="https://github.com/ViewBTC/mvs-exchange-tools" target="_blank" rel="external">https://github.com/ViewBTC/mvs-exchange-tools</a><br>后续会开放其他语言的示例代码。</p><p>mvs-cli 默认也是调用8820端口，执行rpc。<br>所以在用户浏览器中查看的数据，与mvs-cli调用其实是同一个。</p><h1 id="查看帮助信息"><a href="#查看帮助信息" class="headerlink" title="查看帮助信息"></a>查看帮助信息</h1><p>所有的命令都支持help命令，执行<br>mvs-cli 也可以是用户浏览器中的控制台<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 查看所有命令</span></div><div class="line">mvs-cli <span class="built_in">help</span></div><div class="line"><span class="comment"># 查看具体命令参数和描述</span></div><div class="line">mvs-cli <span class="built_in">help</span> send </div><div class="line"><span class="comment">#或</span></div><div class="line">mvs-cli send -h</div></pre></td></tr></table></figure></p><h1 id="遍历区块的命令"><a href="#遍历区块的命令" class="headerlink" title="遍历区块的命令"></a>遍历区块的命令</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 查询块高对应的块哈希</span></div><div class="line">./mvs-cli fetch-header -t  <span class="variable">$block_height</span></div><div class="line"><span class="comment"># 查询块哈希对应的先块结构</span></div><div class="line">./mvs-cli getblock  <span class="variable">$block_hash</span> --json=<span class="literal">true</span></div></pre></td></tr></table></figure><h1 id="HD账户的新建和地址的管理"><a href="#HD账户的新建和地址的管理" class="headerlink" title="HD账户的新建和地址的管理"></a>HD账户的新建和地址的管理</h1><p>元界在一开始设计的时候就摒弃了随机keys的想法，一切交易均由主私钥对应的子私钥管理。<br>由主私钥匙+index生成对应的子私钥。<br>且您所使用的帐号和密码属于该钱包本地的，非链上的数据，所以不可随主私钥助记符(主私钥助记符是为了方便用户记忆的24个单词或汉字,与主私钥是映射关系)导入。<br>如果切换新钱包，原账户名和密码不可使用，需要重新设置，即使忘记也没有关系，只需要备份好主私钥助记符即可。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 生成新账户</span></div><div class="line">mvs-cli getnewaccount <span class="variable">$name</span> <span class="variable">$password</span></div><div class="line"><span class="comment"># 使用该账户生成地址，这些地址一定属于该账户</span></div><div class="line">mvs-cli getnewaddress <span class="variable">$name</span> <span class="variable">$password</span></div><div class="line"><span class="comment"># 查看我的帐户的地址</span></div><div class="line">mvs-cli listaddresses <span class="variable">$name</span> <span class="comment">#password</span></div></pre></td></tr></table></figure><p>账户名和账户口令相当于你的主私钥在这个钱包里的别名，账户名与主私钥一一对应，使用账户名和口令相当于调用对应的主私钥，所以以上命令就是使用某个主私钥生成新地址的意思。</p><p>一个主私钥对应的index总数大概40亿，默认都是从0自增的，所以您只需要备份主私钥即可，不应当备份账户名和密码。<br>如果忘记账户名和密码，重新导入主私钥助记符即可，可以使用importaccount命令，导入时可指定index大小，钱包将为您生成相应个数的地址，具体参见help。<br>在元界上，所有个人资产的唯一凭证只有主私钥助记符，包括您发行的资产。</p><p>元界钱包目前还没有做文件级别的备份，您千万备份好您的主私钥助记符（也就是那24个单词）<br>备份主私钥助记符会确保您不会有任何资产损失，通过账户名和密码是无法查看主私钥助记符的。</p><h1 id="发送交易（重点）"><a href="#发送交易（重点）" class="headerlink" title="发送交易（重点）"></a>发送交易（重点）</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># send 命令</span></div><div class="line">mvs-cli send <span class="variable">$name</span> <span class="variable">$password</span> <span class="variable">$target_address</span> <span class="variable">$amount</span></div><div class="line"><span class="comment"># sendfrom 命令</span></div><div class="line">mvs-cli send <span class="variable">$name</span> <span class="variable">$password</span> <span class="variable">$from_address</span> <span class="variable">$target_address</span> <span class="variable">$amount</span></div></pre></td></tr></table></figure><ul><li><p>send 命令详细解释（重要）:<br>send 命令是一个为普通用户优化后的命令，支持规整交易，打乱找零输出到其他地址，<br>即找零随机到一个本账户其他地址的命令，<strong>不建议在交易平台后台使用</strong>。<br>send 命令的在服务端的使用场合：需要规整零钱或者全额发送到其他地址。确定性的发送请使用sendfrom替代！</p></li><li><p>sendfrom 命令详细解释：<br>sendfrom 命令支持找零到发送地址，sendfrom命令是十分类似其他钱包的命令的。</p></li></ul><h1 id="资产和交易管理QA"><a href="#资产和交易管理QA" class="headerlink" title="资产和交易管理QA"></a>资产和交易管理QA</h1><ol><li><p>如何从交易记录查看资产？<br>交易记录中有attachment，里面有type，type的类型是etp就是etp，如果是发行的资产则就是其他符号，目前有一些测试token，使用listassets不加任何参数可以看到</p></li><li><p>如何看待ETP和其他资产的关系？<br>ETP相当于是以太里面的ETH，其他的资产相当于都是token.</p></li><li><p>如果通过接口获得某个account或者地址的private key?<br>无法获得指定地址的private key，如果是指定地址发交易，我们有sendfrom命令支持指定地址，该地址属于该账户即可。</p></li><li><p>如何通过转账记录创建raw transaction， 就是类似比特币的createrawtransaction?<br>针对rawtransaction， 属于自己组件交易，这个是由libbitcoin原生命令支持的，我们保留了这部分功能，但是不推荐使用，<br>可以参照 <a href="https://github.com/libbitcoin/libbitcoin-explorer/wiki/How-to-Spend-Bitcoin" target="_blank" rel="external">https://github.com/libbitcoin/libbitcoin-explorer/wiki/How-to-Spend-Bitcoin</a>，将其中bitcoin部分替换成元界的地址和utxo，依然成立。</p></li><li><p>如何使用private key对raw transaction进行sign?<br>同上, 推荐使用HD方式的地址.</p></li><li><p>如何通过HD方式生成地址?</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./mvs-cli getnewaddress <span class="variable">$account_name</span> <span class="variable">$account_password</span></div></pre></td></tr></table></figure></li></ol><p>账户名和账户口令相当于你的主私钥在这个钱包里的别名，账户名与主私钥一一对应，使用账户名和口令相当于调用对应的主私钥，所以以上命令就是使用某个主私钥生成新地址的意思。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;元界钱包基于Libbitcoin实现。&lt;br&gt;rpc的使用上的概念与比特币十分类似，但是接口不同。&lt;/p&gt;
+&lt;h1 id=&quot;rpc的调用&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="blockchain metaverse wallet service" scheme="http://blog.mvs.live/categories/blockchain-metaverse-wallet-service/"/>
+    
+    
+      <category term="wallet" scheme="http://blog.mvs.live/tags/wallet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How To Reset Metaverse Environment?</title>
+    <link href="http://blog.mvs.live/reset-mvs/"/>
+    <id>http://blog.mvs.live/reset-mvs/</id>
+    <published>2017-04-18T05:44:21.000Z</published>
+    <updated>2017-11-05T23:43:53.820Z</updated>
+    
+    <content type="html"><![CDATA[<font color="#FF0000"> <b>CAUTION: PLEASE BACKUP YOUR ACCOUNT’s MNEMONIC-PHRASE OF MASTER-KEY AT FIRST.<br>注意: 请在做重置操作前备份好您所有账户的主私钥助记符（即注册账户时生成的24个单词）。<br></b></font> <p>Uninstall Metaverse wallet from your device.</p><p>Please copy and paste the below into the path search function on your device:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># Windows: Explorer</div><div class="line">%HOMEPATH%\AppData\Roaming\Metaverse</div><div class="line"></div><div class="line"># Mac-OSX: Finder =&gt; go to folder</div><div class="line">~/Library/Application Support/Metaverse</div><div class="line"></div><div class="line"># Linux(unix-like):</div><div class="line">~/.metaverse</div></pre></td></tr></table></figure></p><p>Rename the ‘Metaverse’ folder as ‘Metaverse.bak’, then install Metaverse installation package again.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;font color=&quot;#FF0000&quot;&gt; &lt;b&gt;CAUTION: PLEASE BACKUP YOUR ACCOUNT’s MNEMONIC-PHRASE OF MASTER-KEY AT FIRST.&lt;br&gt;注意: 请在做重置操作前备份好您所有账户的主私钥助记符（即注册账户
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界(Metaverse)安装与使用手册</title>
+    <link href="http://blog.mvs.live/mvs-user-guide-zh/"/>
+    <id>http://blog.mvs.live/mvs-user-guide-zh/</id>
+    <published>2017-04-08T05:44:21.000Z</published>
+    <updated>2017-09-20T09:38:29.274Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文档适用于0.6.10及以下版本钱包。<br><a href="http://blog.mvs.live/mvs-user-guide-en/">Go to English Version</a><br><a href="http://mvs.live/attachment/Metaverse-wallet-manual070.pdf" target="_blank" rel="external">0.7.0及以上版本钱包使用手册</a></p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>###常见问题解答<br>钱包客户端常见问题解答：<a href="https://blog.mvs.live/qa-for-mvs/">Q&amp;A</a></p><h3 id="试用"><a href="#试用" class="headerlink" title="试用"></a>试用</h3><p>元界提供测试网络的WEB在线测试页面<br>点击进入测试节点1: <a href="http://test1.metaverse.live:8820" target="_blank" rel="external">http://test1.metaverse.live:8820</a><br>点击进入测试节点4: <a href="http://test4.metaverse.live:8820" target="_blank" rel="external">http://test4.metaverse.live:8820</a></p><h3 id="开始安装与使用"><a href="#开始安装与使用" class="headerlink" title="开始安装与使用"></a>开始安装与使用</h3><h4 id="Windows-版本"><a href="#Windows-版本" class="headerlink" title="Windows 版本"></a>Windows 版本</h4><ol><li><p>获取元界客户端<br>请至<a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a>下载最新版安装包<br><img src="http://newmetaverse.org/guide/download-zh.png" alt="download-zh"></p></li><li><p>解压缩<br>解压压缩包<br><img src="http://newmetaverse.org/guide/win-extract.png" alt="win-extract"></p></li><li><p>运行<br>打开’mvsd’, 等待同步块完成, 这一过程需要四个小时或以上，最新块高可以从 <a href="http://explorer.mvs.live" target="_blank" rel="external">http://explorer.mvs.live</a> 查询，同步将一直持续到最新快高。<br>(第一次运行可能出现网络访问请求许可)<br><img src="http://newmetaverse.org/guide/win-run1.png" alt="win-run1"><br><img src="http://newmetaverse.org/guide/win-run2.png" alt="win-run2"></p></li><li><p>开始使用<br>请不要关闭同步程序，并且打开start-metaverse.html, 打开页面后请将该地址收藏<br><img src="http://newmetaverse.org/guide/win-start.png" alt="win-start"><br>或直接在浏览器中打开输入  127.0.0.1:8820  并回车<br><img src="http://newmetaverse.org/guide/login-zh.png" alt="login-zh"></p></li></ol><h4 id="MacOSX-版本"><a href="#MacOSX-版本" class="headerlink" title="MacOSX 版本"></a>MacOSX 版本</h4><ol><li><p>获取元界客户端<br>请至<a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a>下载最新版安装包<br><img src="http://newmetaverse.org/guide/download-zh.png" alt="download-zh"></p></li><li><p>解压缩并安装WEB-UI<br>解压缩<br><img src="http://newmetaverse.org/guide/OSX-extract.png" alt="OSX-extract"><br>打开’mvs-install’, 等待提示’’ 则表示WEB-UI安装结束，请关闭该窗口<br><img src="http://newmetaverse.org/guide/OSX-install.png" alt="OSX-install"></p></li><li><p>运行<br>打开’mvsd’, 等待同步块完成,这一过程将持续四个小时或以上， 最新块高可以从 <a href="http://explorer.mvs.live" target="_blank" rel="external">http://explorer.mvs.live</a> 查询<br><img src="http://newmetaverse.org/guide/OSX-run.png" alt="OSX-run"></p></li><li><p>开始使用<br>请不要关闭同步程序，并且打开start-metaverse.html, 打开页面后请将该地址收藏<br>或直接在浏览器中输入  127.0.0.1:8820  并回车<br><img src="http://newmetaverse.org/guide/login-zh.png" alt="login-zh"></p></li></ol><h4 id="Linux-版本"><a href="#Linux-版本" class="headerlink" title="Linux 版本"></a>Linux 版本</h4><ol><li><p>获取元界客户端<br>请至<a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a>下载最新版安装包<br><img src="http://newmetaverse.org/guide/download-zh.png" alt="download-zh"></p></li><li><p>解压缩, 安装WEB-UI(可选)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#解压缩</span></div><div class="line">tar -xzvf mvs067-linux-x86_64.tar.gz</div><div class="line"><span class="comment">#执行'mvs-isntall'安装WEB-UI，提示安装结束。(此步骤可选)</span></div><div class="line">./mvs-install</div></pre></td></tr></table></figure></li><li><p>运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 执行'mvsd', 等待同步块完成, 最新块高可以从 &lt;http://explorer.mvs.live&gt; 查询</span></div><div class="line"><span class="comment"># -d 以守护进程形式启动, 没有-d则从会话终端启动</span></div><div class="line">./mvsd <span class="_">-d</span></div><div class="line"></div><div class="line"><span class="comment"># 执行help查看启动参数</span></div><div class="line">./mvsd <span class="built_in">help</span></div><div class="line"></div><div class="line"><span class="comment">#执行mvs-cli查看控制台命令</span></div><div class="line">./mvs-cli <span class="built_in">help</span></div></pre></td></tr></table></figure></li><li><p>开始使用<br>a. 命令行请在终端使用<br>b. 浏览器端与其他平台操作相同:<br>请打开start-metaverse.html, 打开页面后请将该地址收藏<br>或直接在浏览器中输入  127.0.0.1:8820  并回车<br><img src="http://newmetaverse.org/guide/login-zh.png" alt="login-zh"></p></li></ol><p>(注:后续版本会制作一键安装包简化安装过程)</p><h2 id="账户与登录"><a href="#账户与登录" class="headerlink" title="账户与登录"></a>账户与登录</h2><h3 id="账户"><a href="#账户" class="headerlink" title="账户"></a>账户</h3><p>账户基于HD设计, 您所使用的帐号和密码属于该钱包本地的，非链上的数据，所以不可随主私钥助记符(主私钥助记符是为了方便用户记忆的24个单词或汉字,与主私钥是映射关系)导入。<br>如果切换新钱包，原账户名和密码不可使用，需要重新设置，即使忘记也没有关系，只需要备份好主私钥助记符即可。</p><h4 id="a-新建一个账户"><a href="#a-新建一个账户" class="headerlink" title="a. 新建一个账户"></a>a. 新建一个账户</h4><p>点击’新建’后，新建账户<br><img src="http://newmetaverse.org/guide/usage/addnew.png" alt="addnew"><br>备份主私钥助记符<br><img src="http://newmetaverse.org/guide/usage/private-keys.png" alt="private-keys"></p><p><strong>在任何情况下，您都不能向任何人透露您的主私钥助记符，这是您在元界上的唯一凭证，丢失后无法找回！请务必保管好您的主私钥助记符。</strong></p><h4 id="b-从已有账户导入"><a href="#b-从已有账户导入" class="headerlink" title="b. 从已有账户导入"></a>b. 从已有账户导入</h4><p><img src="http://newmetaverse.org/guide/usage/importaccount.png" alt="importaccount"></p><h3 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h3><p>输入您的本地账户名和密码（刚刚创建或导入的），点击登录<br>登录后的界面：<br><img src="http://newmetaverse.org/guide/usage/main-page.png" alt="main-page"><br>ETP转账页面：<br><img src="http://newmetaverse.org/guide/usage/transfer.png" alt="transfer"></p><h2 id="熵-ETP-币转移和资产操作演示视频"><a href="#熵-ETP-币转移和资产操作演示视频" class="headerlink" title="熵(ETP)币转移和资产操作演示视频"></a>熵(ETP)币转移和资产操作演示视频</h2><p><a href="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" target="_blank" rel="external">点击在新tab页打开</a></p><video src="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" width="640" height="480" controls="controls"><br>Your browser does not support the video tag.<br></video>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本文档适用于0.6.10及以下版本钱包。&lt;br&gt;&lt;a href=&quot;http://blog.mvs.live/mvs-user-guide-en/&quot;&gt;Go to English Version&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://mvs.live/attachmen
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How Setup Metaverse Client And Command Usages</title>
+    <link href="http://blog.mvs.live/mvs-user-guide-en/"/>
+    <id>http://blog.mvs.live/mvs-user-guide-en/</id>
+    <published>2017-04-08T05:44:21.000Z</published>
+    <updated>2017-09-20T09:52:36.901Z</updated>
+    
+    <content type="html"><![CDATA[<p>This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).<br><a href="http://blog.mvs.live/mvs-user-guide-zh/">简体中文版本 Simplified Chinese Documentation</a></p><h2 id="Get-Started"><a href="#Get-Started" class="headerlink" title="Get Started"></a>Get Started</h2><h3 id="trial-on-metaverse-test-net"><a href="#trial-on-metaverse-test-net" class="headerlink" title="trial on metaverse test-net"></a>trial on metaverse test-net</h3><p>There are two on-line test-net web page for Metaverse as below:<br>Click into node1: <a href="http://test1.metaverse.live:8820" target="_blank" rel="external">http://test1.metaverse.live:8820</a><br>Click into node4：<a href="http://test4.metaverse.live:8820" target="_blank" rel="external">http://test4.metaverse.live:8820</a></p><h3 id="Installations"><a href="#Installations" class="headerlink" title="Installations"></a>Installations</h3><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><ol><li><p>Get latest release from mvs.live<br>download from <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a><br><img src="http://newmetaverse.org/guide/download-en.png" alt="download-en"></p></li><li><p>Extract installation ball<br><img src="http://newmetaverse.org/guide/win-extract.png" alt="win-extract"></p></li><li><p>Run metaverse<br>open ‘mvsd’, waiting for synchronizing blocks, the height you can exeplorer on <a href="http://explorer.mvs.live" target="_blank" rel="external">http://explorer.mvs.live</a><br>(Allow network permission when startup at first time)<br><img src="http://newmetaverse.org/guide/win-run1.png" alt="win-run1"><br><img src="http://newmetaverse.org/guide/win-run2.png" alt="win-run2"></p></li><li><p>Usage<br>open ‘start-metaverse.html’<br><img src="http://newmetaverse.org/guide/win-start.png" alt="win-start"><br>Or you can type in 127.0.0.1:8820 in your brower<br><img src="http://newmetaverse.org/guide/login-en.png" alt="login-en"></p></li></ol><h4 id="MacOSX"><a href="#MacOSX" class="headerlink" title="MacOSX"></a>MacOSX</h4><ol><li><p>Get latest release from mvs.live<br>download from <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a><br><img src="http://newmetaverse.org/guide/download-en.png" alt="download-en"></p></li><li><p>Extract tar-ball and install WEB-UI files<br>Extract<br><img src="http://newmetaverse.org/guide/OSX-extract.png" alt="OSX-extract"><br>open ‘mvs-install’, waiting for installation done , then close this windows<br><img src="http://newmetaverse.org/guide/OSX-install.png" alt="OSX-install"></p></li><li><p>Run<br>open ‘mvsd’, waiting for synchronizing blocks, the height you can exeplorer on <a href="http://explorer.mvs.live" target="_blank" rel="external">http://explorer.mvs.live</a><br><img src="http://newmetaverse.org/guide/OSX-run.png" alt="OSX-run"></p></li><li><p>Usage<br>open ‘start-metaverse.html’<br>Or you can type in 127.0.0.1:8820 with your brower<br><img src="http://newmetaverse.org/guide/login-en.png" alt="login-en"></p></li></ol><h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4><ol><li><p>Get latest release from mvs.live<br>download from <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a><br><img src="http://newmetaverse.org/guide/download-en.png" alt="download-en"></p></li><li><p>Extract tar-ball and install WEB-UI files</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># extract</span></div><div class="line">tar -xzvf mvs067-linux-x86_64.tar.gz</div><div class="line"><span class="comment"># open 'mvs-install', waiting for installation done (terminal only, then skip)</span></div><div class="line">./mvs-install</div></pre></td></tr></table></figure></li><li><p>Run</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">open <span class="string">'mvsd'</span>, waiting <span class="keyword">for</span> synchronizing blocks, the height you can exeplorer on &lt;http://explorer.mvs.live&gt;</div><div class="line"><span class="comment"># -d run as daemon, otherwise running on your terminal.</span></div><div class="line">./mvsd <span class="_">-d</span></div><div class="line"></div><div class="line"><span class="comment"># see the help message of mvsd</span></div><div class="line">./mvsd <span class="built_in">help</span></div><div class="line"></div><div class="line"><span class="comment"># see the help message of mvs-cli</span></div><div class="line">./mvs-cli <span class="built_in">help</span></div><div class="line"></div><div class="line"><span class="comment"># see the help message for each command</span></div><div class="line">./mvs-cli <span class="built_in">help</span> <span class="variable">$command</span></div></pre></td></tr></table></figure></li><li><p>Usage<br>a. Using on terminal normally.<br>b. Using on browser same as other platfroms.<br>open ‘start-metaverse.html’<br>Or you can type in 127.0.0.1:8820 on your brower<br><img src="http://newmetaverse.org/guide/login-en.png" alt="login-en"></p></li></ol><h2 id="Account-and-Login"><a href="#Account-and-Login" class="headerlink" title="Account and Login"></a>Account and Login</h2><h3 id="Account-Explanation"><a href="#Account-Explanation" class="headerlink" title="Account Explanation"></a>Account Explanation</h3><p>账户基于HD设计, 您所使用的帐号和密码属于该钱包本地的，非链上的数据，所以不可随主私钥助记符(主私钥助记符是为了方便用户记忆的24个单词或汉字,与主私钥是映射关系)导入。<br>如果切换新钱包，原账户名和密码不可使用，需要重新设置，即使忘记也没有关系，只需要备份好主私钥助记符即可。</p><h4 id="a-Add-your-own-new-account"><a href="#a-Add-your-own-new-account" class="headerlink" title="a. Add your own new account"></a>a. Add your own new account</h4><p>Click ‘register’<br><img src="http://newmetaverse.org/guide/usage/add-new-en.png" alt="add-new-en"><br>Backup your mnemonic words<br><img src="http://newmetaverse.org/guide/usage/private-keys-en.png" alt="private-keys-en"></p><p><strong>Please save this key at a safe place. A good way can be to write it down on a piece of paper. It is very important to back up this key and it is not possible to retrieve this key later</strong></p><h4 id="b-import-account-from-other-mnemonic-words"><a href="#b-import-account-from-other-mnemonic-words" class="headerlink" title="b. import account from other mnemonic words"></a>b. import account from other mnemonic words</h4><p><img src="http://newmetaverse.org/guide/usage/importaccount-en.png" alt="importaccount-en"></p><h3 id="Login"><a href="#Login" class="headerlink" title="Login"></a>Login</h3><p>Type in your own account name and password(those created in last step), click ‘Login’<br>The home-page as blow:<br><img src="http://newmetaverse.org/guide/usage/main-page-en.png" alt="main-page-en"><br>Here is the ETP transfer page:<br><img src="http://newmetaverse.org/guide/usage/transfer-en.png" alt="transfer-en"></p><h2 id="How-to-Register-Transfer-IssueAsset-on-metaverse-Video"><a href="#How-to-Register-Transfer-IssueAsset-on-metaverse-Video" class="headerlink" title="How to Register/Transfer/IssueAsset on metaverse? (Video)"></a>How to Register/Transfer/IssueAsset on metaverse? (Video)</h2><p><a href="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" target="_blank" rel="external">Open as new tab</a></p><video src="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" width="640" height="480" controls="controls"><br>Your browser does not support the video tag.<br></video>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).&lt;br&gt;&lt;a href=&quot;http://blog.mvs.live/mvs-user-guide-zh/
+      
+    
+    </summary>
+    
+      <category term="Guide" scheme="http://blog.mvs.live/categories/Guide/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元界历史版本ReleaseNotes以及下载地址</title>
+    <link href="http://blog.mvs.live/history-releasenotes/"/>
+    <id>http://blog.mvs.live/history-releasenotes/</id>
+    <published>2017-03-31T16:00:00.000Z</published>
+    <updated>2017-10-20T03:28:03.516Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0-7-0版本更新如下"><a href="#0-7-0版本更新如下" class="headerlink" title="0.7.0版本更新如下"></a>0.7.0版本更新如下</h3><hr><p>1.界面重新设计，全新钱包UI</p><p>2.重构多重签名命令，优化输出方式 </p><p>3.扩展send命令，发送交易时携带附加信息</p><p>4.新增账户高级备份，账户可导出到加密文件</p><p>5.优化getaccountasset命令，在资产信息中增加该资产数量及其所附属地址信息</p><p>6.优化listtxs命令提升执行性能并支持分页查看</p><p>7.优化日志系统，限制log file占用磁盘空间大小</p><p>8.优化钱包安装程序，新增程序后台运行功能</p><p>9.新增钱包程序在安装过程中初始化数据库功能</p><p>10.新增带块数据库的安装包，减少钱包同步时间</p><h3 id="0-6-10版本更新如下"><a href="#0-6-10版本更新如下" class="headerlink" title="0.6.10版本更新如下"></a>0.6.10版本更新如下</h3><hr><p>1.增加多重签名功能</p><p>2.本地数据库无缝升级，无须进行多余的网络同步</p><p>3.查询性能优化</p><p>4.修复window下中文路径名导致钱包异常退出的问题</p><p>5.window环境工程整理</p><p>6.window环境增加dump文件用以反馈问题</p><p>7.增加启动选项–datadir用于人工指定区块数据存放目录</p><p>8.优化网络流量</p><p>9.修复交易发送失败</p><p>10.统一rpc异常接口</p><p>11.修复linux各个系列的兼容性问题</p><p>12.修复在更换版本之后帐号密码不匹配的问题</p><h4 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h4><p>1.使用0.6.9版本linux平台的钱包需要备份私钥并删除数据重新同步</p><p>2.在centos平台下编译的也需要进行如上操作</p><p>3.使用钱包rpc的用户需要对rpc接口异常返回结果需要注意，此处有升级</p><p>4.window用户在钱包客户端崩溃时可提供dump文件</p><p>本次发布为升级级别，针对钱包BUG作修正和功能性增强，最新版本请至官网 <a href="http://mvs.org" target="_blank" rel="external">http://mvs.org</a> 下载。</p><p>以上,<br>元界核心开发和运营团队</p><h2 id="0-6-9-版本更新如下"><a href="#0-6-9-版本更新如下" class="headerlink" title="0.6.9 版本更新如下: "></a>0.6.9 版本更新如下: </h2><ol><li>发行资产新增指定小数位数(最小交易单位)的功能；</li><li>新增交易添加附加备注信息；</li><li>性能和网络同步优化；</li><li>修复数据库交易索引碰撞的问题；</li><li>页面修复资产转移交易显示的问题；</li><li>其他一些非功能性修改；</li></ol><p>有关增加资产发行小数位数：<br>1)区块链已有资产发行总量默认小数位为0个，即全部为整数；<br>2)ETP转移不受任何影响；<br>3)若想使用资产转移收发含小数位数量的资产，请使用0.6.9版本。<br>4)若更新后浏览器不显示新版本，OSX请使用command+shift+R 更新缓存， Windows 请使用ctrl+F5更新缓存即可；</p><p>本次发布为升级级别，针对钱包BUG作修正和功能性增强，本地数据库重建索引会自动更新数据库(需重新同步区块)，请耐心等待。<br>最新版本请至官网 <a href="http://mvs.org" target="_blank" rel="external">http://mvs.org</a> 下载。</p><h2 id="0-6-8-版本更新如下"><a href="#0-6-8-版本更新如下" class="headerlink" title="0.6.8 版本更新如下: "></a>0.6.8 版本更新如下: </h2><ol><li>前端页面增加显示交易HASH</li><li>前端页面增加指定从地址发送etp的功能</li><li>修复资产发行冻结过多ETP的问题</li><li>前端页面增加显示全网已发行资产</li><li>增加指定块高checkpoint</li><li>listtxs命令按时间排序,并修复按地址查询的bug</li><li>sendmore命令增加指定找零地址</li><li>移除忘记密码的功能</li><li>其他一些非功能性修改.</li></ol><p>0.6.8b 版本更新如下: </p><ol><li>回退:找零随机布局到交易体</li><li>前端页面功能修复</li></ol><p>0.6.8c 版本更新如下: </p><ol><li>修复前端页面无法转移资产的BUG</li></ol><p>Linux 下载地址:<a href="http://newmetaverse.org/mvs-download/mvs068c-linux-x86_64.zip" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs068c-linux-x86_64.zip</a><br>OSX   下载地址:<a href="http://newmetaverse.org/mvs-download/mvs068c-OSX-x86_64.zip" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs068c-OSX-x86_64.zip</a><br>Windows下载地址:<a href="http://newmetaverse.org/mvs-download/mvs068c-win64.zip" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs068c-win64.zip</a></p><p>本次发布为补丁级别，针对程序BUG作修正和功能性增强，不需要重新同步块数据。</p><h2 id="0-6-7-版本更新如下："><a href="#0-6-7-版本更新如下：" class="headerlink" title="0.6.7 版本更新如下："></a>0.6.7 版本更新如下：</h2><ol><li>一些性能问题修正；</li><li>减小同步区块时产生的log；</li><li>增加deposit到指定地址的功能；</li><li>其他一些已知问题。</li></ol><p>本次发布为补丁级别，针对程序BUG作修正和功能性增强，不涉及任何账户数据迁移。<br>最新版本请至官网 <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a>下载。</p><h2 id="0-6-6-版本更新如下"><a href="#0-6-6-版本更新如下" class="headerlink" title="0.6.6 版本更新如下:"></a>0.6.6 版本更新如下:</h2><ol><li>增加gettransaction命令，命令输入为transaction hash，返回该hash所对应的transaction信息以及该transaction所在的块高。</li><li>修改listtx命令，修改后该命令会默认返回account的100条交易记录而不是返回account的所有记录</li><li>增加utxo限制，若一个地址的utxo中含有资产，则该utxo所包含的etp是不能参与etp-&gt;etp的交易，只能用于资产交易</li><li>增加etp借用功能。转移资产时，若一个地址上的etp不足支付交易费，则从该account上的其他etp充足的地址上借取etp以完成资产转移交易。</li><li>修改WebUI中的一些文字提示，让其更友好。</li><li>增加WebUI的错误提示内容；</li></ol><p>Linux 下载地址:<a href="http://newmetaverse.org/mvs-download/mvs066-linux-x86_64.tar.gz" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs066-linux-x86_64.tar.gz</a><br>OSX   下载地址:<a href="http://newmetaverse.org/mvs-download/mvs066-OSX-x86_64.tar.gz" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs066-OSX-x86_64.tar.gz</a></p><p>本次发布为补丁级别，针对程序BUG作修正和功能性增强，不涉及任何账户数据迁移。<br>最新版本请至官网 <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a> 下载。</p><h2 id="0-6-5-版本更新如下"><a href="#0-6-5-版本更新如下" class="headerlink" title="0.6.5 版本更新如下:"></a>0.6.5 版本更新如下:</h2><p>一些已知问题修正。<br>Linux 下载地址:<a href="http://newmetaverse.org/mvs-download/mvs065-linux-x86_64.tar.gz" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs065-linux-x86_64.tar.gz</a><br>OSX   下载地址:<a href="http://newmetaverse.org/mvs-download/mvs065-OSX-x86_64.tar.gz" target="_blank" rel="external">http://newmetaverse.org/mvs-download/mvs065-OSX-x86_64.tar.gz</a></p><p>本次发布为补丁级别，针对程序BUG作修正和功能性增强，不涉及任何账户数据迁移。<br>最新版本请至官网 <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a> 下载。</p><h2 id="0-6-4-版本更新如下"><a href="#0-6-4-版本更新如下" class="headerlink" title="0.6.4 版本更新如下:"></a>0.6.4 版本更新如下:</h2><p>一些已知问题修正。</p><p>本次发布为补丁级别，针对程序BUG作修正和功能性增强，需要重新同步块数据。<br>最新版本请至官网 <a href="http://mvs.live" target="_blank" rel="external">http://mvs.live</a> 下载。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;0-7-0版本更新如下&quot;&gt;&lt;a href=&quot;#0-7-0版本更新如下&quot; class=&quot;headerlink&quot; title=&quot;0.7.0版本更新如下&quot;&gt;&lt;/a&gt;0.7.0版本更新如下&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;1.界面重新设计，全新钱包UI&lt;/p&gt;
+&lt;p&gt;2.重构多重
+      
+    
+    </summary>
+    
+      <category term="ReleaseNotes" scheme="http://blog.mvs.live/categories/ReleaseNotes/"/>
+    
+    
+      <category term="Metaverse" scheme="http://blog.mvs.live/tags/Metaverse/"/>
+    
+  </entry>
+  
+</feed>
