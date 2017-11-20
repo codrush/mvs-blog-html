@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.mvs.live/mvs-paramters/</loc>
+    
+    <lastmod>2017-11-20T02:54:38.378Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.mvs.live/reset-mvs/</loc>
     
     <lastmod>2017-11-05T23:43:53.820Z</lastmod>
@@ -107,13 +114,6 @@
   </url>
   
   <url>
-    <loc>http://blog.mvs.live/mvs-paramters/</loc>
-    
-    <lastmod>2017-07-22T03:55:01.837Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.mvs.live/mvs-developing-report/201706/</loc>
     
     <lastmod>2017-06-30T11:18:36.775Z</lastmod>
@@ -128,44 +128,44 @@
   </url>
   
   <url>
+    <loc>http://blog.mvs.live/input-output-limits/</loc>
+    
+    <lastmod>2017-06-12T11:34:40.357Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.mvs.live/Metavese-MIPs-Avatar/</loc>
     
-    <lastmod>2017-05-11T10:39:03.549Z</lastmod>
+    <lastmod>2017-06-12T11:34:40.357Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.mvs.live/metaverse-setup-guide-for-service/</loc>
     
-    <lastmod>2017-05-09T03:39:20.121Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.mvs.live/input-output-limits/</loc>
-    
-    <lastmod>2017-04-07T09:19:20.614Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.mvs.live/categories/index.html</loc>
-    
-    <lastmod>2017-04-06T14:08:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.mvs.live/tags/index.html</loc>
-    
-    <lastmod>2017-04-06T14:08:44.000Z</lastmod>
+    <lastmod>2017-06-12T11:34:40.357Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.mvs.live/about/index.html</loc>
     
-    <lastmod>2017-04-06T14:08:34.000Z</lastmod>
+    <lastmod>2017-06-12T11:34:40.357Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.mvs.live/categories/index.html</loc>
+    
+    <lastmod>2017-06-12T11:34:40.357Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.mvs.live/tags/index.html</loc>
+    
+    <lastmod>2017-06-12T11:34:40.357Z</lastmod>
     
   </url>
   
